@@ -9,10 +9,10 @@
   
 }
 body {
-  background-color: #1c1c1c; /* Dark background */
+  background-color: #1A1717; /* Dark background */
   color: white;
   font-family: 'Arial', sans-serif;
-  overflow: hidden;
+  
 }
 /* CSS for first page */
 #hero{
@@ -20,10 +20,11 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 10px;
+  overflow: hidden;
   /* background-color: white; */
 }
 
-header{
+#title{
   font-family: "Space Grotesk", sans-serif ;
   display: inline-flex;
   font-size: larger;
@@ -83,7 +84,7 @@ p.lead {
   width: 250px;
   height: 120px;
   top: 45%;
-  left: 95%;
+  left: 85%;
 }
 
 .r4 {
@@ -102,7 +103,7 @@ p.lead {
 .r6 {
   width: 200px;
   height: 100px;
-  top: 80%;
+  top: 70%;
   left: 20%;
 }
 
@@ -116,14 +117,14 @@ p.lead {
 .r8 {
   width: 250px;
   height: 150px;
-  top: 118%;
+  top: 110%;
   left: 10%;
 }
 
 .r9 {
   width: 150px;
-  height: 130px;
-  top: 110%;
+  height: 150px;
+  top: 100%;
   left: 70%;
 }
 .r10{
@@ -133,3 +134,150 @@ p.lead {
   left: 110%;
 }
 
+/* Services */
+
+#our-services{
+  font-family: "Space Grotesk", sans-serif ;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  padding: 2rem;
+
+}
+
+#services-title{
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+
+}
+#teams{
+  margin: auto;
+  padding: 2rem;
+}
+.row .col{
+  padding: 2rem;
+
+}
+.our-services{
+  padding:3rem ;
+}
+#services-desc{
+  text-align: center;
+  font-size:medium;
+  color: #f4f4f4;
+}
+
+.services-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+.col p{
+  padding: 0.625rem;
+}
+
+/* About-us page */
+#abt-us{
+  font-family: "Space Grotesk", sans-serif ;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  padding: 2rem;
+}
+#about-us-title{
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Space Grotesk", sans-serif ;
+}
+.img-box-career{
+  display: inline-block;
+  padding: 0.625rem;
+  border: 0.125rem dashed;
+  background: linear-gradient(
+    90deg,
+    #FF3D00 12%,
+    #FFB800 25%,
+    #ADFF00 37%,
+    #44D341 50%,
+    #02C07C 62%,
+    #4CACE1 75%,
+    #E5167A 88%,
+    #F3328F 100%
+  )1;
+  border-radius: 100%;
+}
+.team-img{
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.name{
+  font-size: 1.25rem;
+  padding: 0.625rem 0;
+}
+.position{
+  font-size: medium;
+}
+
+/* Careers */
+#careers{
+  font-family: "Space Grotesk", sans-serif ;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  padding: 2rem;
+}
+#careers-title{
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Space Grotesk", sans-serif ;
+}
+
+/* Contact Us */
+#contact{
+  font-family: "Space Grotesk", sans-serif ;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  padding: 2rem;
+}
+#contact-us-title{
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Space Grotesk", sans-serif ;
+}
+.custom-container{
+  height: auto;
+  width: 50%;
+  max-width: fit-content;
+  margin: 0;
+}
+.img-box-contact{
+  width: 80%;
+  border: 2px solid whitesmoke;
+  padding: 0;
+  margin: 0;
+}
+.contact-img{
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  object-fit: cover;
+}
