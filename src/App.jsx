@@ -6,6 +6,7 @@ import Careers from './Careers'
 import Contact from './Contact'
 import Faq from './Faq'
 import Clients from './Clients'
+import Footer from './Footer'
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
     {/* <Careers/> */}
     <Contact/>
     <Faq/>
+    <Footer/>
     
     </>
   )

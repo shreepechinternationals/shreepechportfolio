@@ -51,7 +51,7 @@ function Contact() {
               Direct Call: +977 9802318496, +977 9861352004
             </p>
             <p className="lead">
-              Conversing Time
+              Conversing Time:
               <br />
               Monday - Friday, 08:00 AM - 5:00 PM
             </p>
@@ -99,7 +99,7 @@ function Contact() {
                     />
                   </div>
                   <div className="col">
-                    {" "}
+                    
                     <input
                       type="text"
                       className="form-control"
@@ -111,7 +111,8 @@ function Contact() {
               </div>
             </form>
             <div className="form-group text-center">
-            <button type="button" className="btn btn-primary " id="submit">Submit Now</button>
+            <button type="button" className="btn btn-primary " id="submit">Send Mail <i className="fas fa-paper-plane"/></button>
+            <p className="lead" id="reach-us">*Our Team will respond to your mail shortly after the mail has been received.</p>
             </div>
           </div>
         </div>
