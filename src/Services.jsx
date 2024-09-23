@@ -11,25 +11,25 @@ function Services() {
             <div className="row">
                 <div className="col">
                     <div className="img-box">
-                        <img className="services-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWFQXPEfW07sy5szOFLfm-Qn7ceQHB1HQyeQ&s"/>
+                        <img className="services-img" src="images/icons/wd.png"/>
                     </div>
                 <p>Web Development</p>
                 </div>
                 <div className="col">
                 <div className="img-box">
-                        <img className="services-img" src="https://www.clipartmax.com/png/middle/178-1788294_app-development-icon-mobile-app-development-icon.png"/>
+                        <img className="services-img" src="images/icons/md.png"/>
                     </div>
                 <p>Mobile App Development</p>
                 </div>
                 <div className="col">
                 <div className="img-box">
-                        <img className="services-img" src="https://img.favpng.com/2/9/17/digital-marketing-logo-graphic-design-png-favpng-vyazc0DEyLwUzaztDG9107TDC.jpg"/>
+                        <img className="services-img" src="images/icons/dm.png"/>
                     </div>
                 <p>Digital Marketing</p>
                 </div>
                 <div className="col">
                 <div className="img-box">
-                        <img className="services-img" src="https://cdn-icons-png.flaticon.com/512/4824/4824797.png"/>
+                        <img className="services-img" src="images/icons/ds.png"/>
                     </div>
                 <p>Data Science</p>
                 </div>
@@ -38,19 +38,19 @@ function Services() {
             <div className="row">
                 <div className="col">
                 <div className="img-box">
-                        <img className="services-img" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/sketchapp-3-512.png"/>
+                        <img className="services-img" src="images/icons/uiux.png"/>
                     </div>
                 <p>UI/UX Design</p>
                 </div>
                 <div className="col">
                 <div className="img-box">
-                        <img className="services-img" src="https://png.pngtree.com/png-vector/20190118/ourmid/pngtree-vector-seo-icon-png-image_328696.jpg"/>
+                        <img className="services-img" src="images/icons/seo.png"/>
                     </div>
                 <p>SEO</p>
                 </div>
                 <div className="col">
                 <div className="img-box">
-                        <img className="services-img" src="https://w7.pngwing.com/pngs/174/621/png-transparent-content-writing-services-website-content-writer-logo-circle-technology-service-logo-business.png"/>
+                        <img className="services-img" src="images/icons/cw.png"/>
                     </div>
                 <p>Content Writing</p>
                 </div>

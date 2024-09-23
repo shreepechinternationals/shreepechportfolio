@@ -85,7 +85,11 @@ function Footer() {
             </div>
           </div>
         </footer>
+              
       </div>
+      <div className="copyright">
+        <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
+        </div>
     </>
   );
 }

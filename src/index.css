@@ -364,12 +364,16 @@ p.lead {
 /* Footer */
 
 .footer {
+  font-family: "Space Grotesk", sans-serif ;
   background-color: #1A1717;
   color: #fff;
   padding: 2.5rem;
 }
+.footer ul li{
+  padding: 0.125rem ;
+}
 .footer a {
-  color: #fff;
+  color: #ECE9E9;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -379,4 +383,13 @@ p.lead {
 
 .footer-logo img {
   width: 70%;
+}
+.copyright{
+  padding: 0.125rem;
+  background-color:  #262525;
+  color: #ECE9E9;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif ;
+
 }
