@@ -4,7 +4,7 @@ function header() {
   return (
     <>
       <div
-        className="container-fluid vh-100 d-flex align-items-center"
+        className="container-fluid d-flex align-items-center"
         id="hero"
       >
         <div className="row w-100">

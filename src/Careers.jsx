@@ -2,7 +2,7 @@ import React from 'react'
 
 function Careers() {
   return (
-    <div className="container-fluid vh-100" id="careers">
+    <div className="container-fluid" id="careers">
     <header id='careers-title'>Careers</header>
     
     </div>

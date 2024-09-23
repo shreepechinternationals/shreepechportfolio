@@ -9,7 +9,7 @@
   
 }
 body {
-  background-color: #1A1717; /* Dark background */
+  background-color: #1A1717; 
   color: white;
   font-family: 'Arial', sans-serif;
   
@@ -141,8 +141,9 @@ p.lead {
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 100vh;
+  
   padding: 2rem;
+  
 
 }
 
@@ -187,8 +188,8 @@ p.lead {
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 100vh;
   padding: 2rem;
+
 }
 #about-us-title{
   margin: auto;
@@ -236,7 +237,7 @@ p.lead {
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 100vh;
+  
   padding: 2rem;
 }
 #careers-title{
@@ -253,22 +254,13 @@ p.lead {
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 100vh;
   padding: 2rem;
 }
 #contact-us-title{
-  margin: auto;
-  text-align: center;
-  align-items: center;
   font-size: 2rem;
   font-family: "Space Grotesk", sans-serif ;
 }
-.custom-container{
-  height: auto;
-  width: 50%;
-  max-width: fit-content;
-  margin: 0;
-}
+
 .img-box-contact{
   width: 80%;
   border: 2px solid whitesmoke;
@@ -280,4 +272,91 @@ p.lead {
   padding: 0;
   margin: 0 auto;
   object-fit: cover;
+}
+
+/* icons */
+.social-icons a {
+  color: white;
+  border: 1px solid #333;
+  display: inline-block;
+  width: 10%;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 ;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.social-icons a:hover {
+  background-color: #555;
+}
+
+/* Form */
+.form-control{
+  margin: 0;
+  padding: 0.625rem;
+}
+#reach-us{
+  margin: 1.2rem;
+}
+#submit{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#form-container{
+  margin: 0;
+  padding: 0;
+}
+
+/* FAQ's */
+#faq{
+  color: #1A1717;
+  background-color: #ECE9E9;
+  font-family: "Space Grotesk", sans-serif ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+#faq-content{
+  color: #1A1717;
+  background-color: #ECE9E9;
+  font-family: "Space Grotesk", sans-serif ;
+  width: 80%;
+  padding: 1rem;
+}
+#f-query{
+  margin: 0;
+  padding: 0;
+}
+.question{
+  margin: 0.625rem;
+  font-size: 1.25rem;
+}
+.fa-arrow-right{
+  display: inline;
+  padding: 0 0.625rem ;
+}
+#faq-box{
+  padding: 0.625rem;
+}
+
+/* Clients */
+
+#clients{
+  color: #1A1717;
+  background-color: #ECE9E9;
+  font-family: "Space Grotesk", sans-serif ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.2rem;
+}
+#clients-title{
+  color: #45B7CF;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-family: "Space Grotesk", sans-serif ;
 }

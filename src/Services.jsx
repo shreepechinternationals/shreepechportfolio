@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div className="container-fluid vh-100" id="our-services">
+    <div className="container-fluid" id="our-services">
         <div className="our-services">
       <header id="services-title">Our Services: Our Most Popular Solution</header>
       <p className="lead" id="services-desc">Digitalize your business to reach your market.<br/>Use our team to build your system !</p>

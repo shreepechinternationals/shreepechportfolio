@@ -2,70 +2,121 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="container mt-5" id="contact">
-      <div className="row">
-        <div className="col md-6">
-          <h1 className="display-4 font-weight-bold">Contact Us.</h1>
-          <p className="lead">
-            Understanding your problem is the first step to
-            <br /> creating a viable solution for you.
-            <br />
-          </p>
-
-          <p className="lead">Connect with us on:</p>
-
-          <div className="container custom-container">
-            <div className="row g-0">
-              <div className="col px-0">
-                <div className="img-box-contact">
-                  <img
-                    className="contact-img"
-                    src="https://static.vecteezy.com/system/resources/previews/023/986/891/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png"
-                  />
-                </div>
-              </div>
-              <div className="col px-0">
-                <div className="img-box-contact">
-                  <img
-                    className="contact-img"
-                    src="https://www.iconpacks.net/icons/2/free-facebook-logo-icon-2428-thumb.png"
-                  />
-                </div>
-              </div>
-              <div className="col px-0">
-                <div className="img-box-contact">
-                  <img
-                    className="contact-img"
-                    src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png"
-                  />
-                </div>
-              </div>
-              <div className="col px-0">
-                <div className="img-box-contact">
-                  <img
-                    className="contact-img"
-                    src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726876800&semt=ais_hybrid"
-                  />
-                </div>
+    <>
+      <div className="container-fluid d-flex align-items-center" id="contact">
+        <div className="row w-100">
+          <div className="col-md-6 d-flex flex-column justify-content-center">
+            <h1 className="display-4 font-weight-bold">Contact Us.</h1>
+            <p className="lead">
+              Understanding your problem is the first step to creating a viable
+              solution for you.
+            </p>
+            <p className="lead">Connect us on:</p>
+            <div className="container">
+              <div className="social-icons d-flex">
+                <a href="#" className="instagram" aria-label="Instagram">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/instagram.webp"
+                    />
+                  </div>
+                </a>
+                <a href="#" className="facebook" aria-label="Facebook">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/facebook.png"
+                    />
+                  </div>
+                </a>
+                <a href="#" className="linkedin" aria-label="LinkedIn">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/linkedin.png"
+                    />
+                  </div>
+                </a>
+                <a href="#" className="twitter" aria-label="Twitter">
+                  <div className="contact-box-icon">
+                    <img className="contact-img" src="images/icons/x.png" />
+                  </div>
+                </a>
               </div>
             </div>
+            <p className="lead">
+              Or,
+              <br />
+              Direct Call: +977 9802318496, +977 9861352004
+            </p>
+            <p className="lead">
+              Conversing Time
+              <br />
+              Monday - Friday, 08:00 AM - 5:00 PM
+            </p>
           </div>
-          <p className="lead">
-            Or,
-            <br />
-            Direct Call: +977 9802318496, +977 9861352004
-          </p>
-          <p className="lead">
-            Conversing Time:
-            <br />
-            Monday to Friday: 8:00 AM - 5:00PM
-          </p>
-        </div>
-        <div className="col-md-6">
-         
+          <div className="col-md-6 d-md-block">
+            <p className="lead" id="reach-us">Reach us via Email:</p>
+            <form>
+              <div className="container" id="form-container">
+                <div className="row">
+                  <div className="col">
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="firstName"
+                      placeholder="First Name"
+                    />
+                  </div>
+                  <div className="col">
+                    
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="lastName"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col">
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col">
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="query"
+                      placeholder="Service of Query"
+                    />
+                  </div>
+                  <div className="col">
+                    {" "}
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="phone-number"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div className="form-group text-center">
+            <button type="button" className="btn btn-primary " id="submit">Submit Now</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

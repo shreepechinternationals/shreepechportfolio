@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="container-fluid vh-100" id="abt-us">
+    <div className="container-fluid" id="abt-us">
         <header id='about-us-title'>Meet Our Team Members</header>
         <p className="lead" id="services-desc">A group of skilled professionals, working together to bring innovative ideas to life and deliver exceptional results.</p>
         <div className="container text-center">
