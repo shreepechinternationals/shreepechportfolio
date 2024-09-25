@@ -6,7 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
+  scroll-behavior: smooth;
 }
 body {
   background-color: #1A1717; 
@@ -14,6 +14,81 @@ body {
   font-family: 'Arial', sans-serif;
   
 }
+/* Backtotopbutton */
+.back-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 999;
+  /* background-color:#262525; */
+  /* color: #f3f3f3; */
+  border: none;
+  border-radius: 0.625rem;
+  padding: 0.625rem 1rem;
+  cursor: pointer;
+  font-size: x-large;
+  
+}
+
+.back-to-top-button.visible {
+  display: block;
+}
+
+.back-to-top-button.hidden {
+  display: none;
+}
+/* Navbar */
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  padding: 0.625rem;
+  background-color: var(--navbar-bg);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 0.5rem 0.625rem;
+  cursor: pointer;
+  border-radius: 50%;
+  font-family: "Space Grotesk", sans-serif ;
+}
+.toggle-button i{
+ padding: 0.625rem;
+ font-size: 1.25rem;
+}
+.toggle-button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+/* Light mode theme */
+.light-mode {
+  --navbar-bg: #E1EBEE;
+  --button-bg: #1A1717;
+  --button-text: #f4f4f4;
+  --button-hover-bg: #495057;
+  background-color: #E1EBEE;
+  color:  #1A1717;
+}
+
+/* Dark mode theme */
+.dark-mode {
+  --navbar-bg:  #1A1717;
+  --button-bg: #f4f4f4;
+  --button-text: #1A1717;
+  --button-hover-bg: #e9ecef;
+  background-color:  #1A1717;
+  color: #ffffff;
+}
+
 /* CSS for first page */
 #hero{
   height: 100vh;
@@ -168,7 +243,7 @@ p.lead {
 #services-desc{
   text-align: center;
   font-size:1rem;
-  color: #f4f4f4;
+  /* color: #f4f4f4; */
 }
 
 .services-img{
@@ -271,6 +346,18 @@ p.lead {
   margin: 0 auto;
   object-fit: cover;
 }
+#reach-us{
+  font-size: small;
+  color: #838383;
+}
+#contact-details{
+  font-size: 1rem;
+}
+#contact-details-reach{
+  font-size: 1rem;
+  padding: 0 0.625rem;
+  margin: 0.625rem;
+}
 
 /* icons */
 .social-icons a {
@@ -361,7 +448,7 @@ p.lead {
 
 /* Footer */
 
-.footer {
+#footer {
   font-family: "Space Grotesk", sans-serif ;
   background-color: #1A1717;
   color: #fff;

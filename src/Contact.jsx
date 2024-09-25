@@ -45,19 +45,19 @@ function Contact() {
                 </a>
               </div>
             </div>
-            <p className="lead">
+            <p className="lead" id='contact-details'>
               Or,
               <br />
               Direct Call: +977 9802318496, +977 9861352004
             </p>
-            <p className="lead">
+            <p className="lead" id='contact-details'>
               Conversing Time:
               <br />
               Monday - Friday, 08:00 AM - 5:00 PM
             </p>
           </div>
           <div className="col-md-6 d-md-block">
-            <p className="lead" id="reach-us">Reach us via Email:</p>
+            <p className="lead" id='contact-details-reach' >Reach us via Email:</p>
             <form>
               <div className="container" id="form-container">
                 <div className="row">

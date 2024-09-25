@@ -44,13 +44,14 @@ function header() {
             <div className="rectangle r1" />
             <div className="rectangle r2" />
             <div className="rectangle r3" />
-            <div className="rectangle r4" />
+            {/* <div className="rectangle r4" /> */}
             <div className="rectangle r5" />
             <div className="rectangle r6" />
             <div className="rectangle r7" />
-            <div className="rectangle r8" />
-            <div className="rectangle r9" />
-            <div className="rectangle r10" />
+            {/* <div className="rectangle r8" />
+            <div className="rectangle r9" /> */}
+            {/* <div className="rectangle r10"/> */}
+            
           </div>
         </div>
       </div>
