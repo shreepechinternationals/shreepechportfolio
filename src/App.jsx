@@ -9,6 +9,7 @@ import Clients from './Clients'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import BackToTopButton from './BackToTopButton'
+import Activities from './Activities'
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
     <About/>
     <Clients/>
     {/* <Careers/> */}
+    <Activities/>
     <Contact/>
     <Faq/>
     <Footer/>

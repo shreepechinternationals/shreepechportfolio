@@ -27,7 +27,7 @@ function Navbar() {
         <button onClick={toggleDarkMode} className="toggle-button">
           {isDarkMode ? (
           <>
-          <i className="fa-regular fa-sun"></i> 
+          <i className="fa-solid fa-sun"/>
           {/* Light Mode */}
           </> 
           ):(

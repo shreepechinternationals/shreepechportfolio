@@ -65,6 +65,9 @@ body {
  padding: 0.625rem;
  font-size: 1.25rem;
 }
+.fa-sun{
+  color: #FFD43B;
+}
 .toggle-button:hover {
   background-color: var(--button-hover-bg);
 }
@@ -478,4 +481,19 @@ p.lead {
   font-weight: 500;
   font-family: "Space Grotesk", sans-serif ;
 
+}
+
+/* Activities */
+
+.workflow-step {
+  text-align: center;
+}
+.workflow-step img {
+  width: 100px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.workflow-arrow {
+  font-size: 24px;
+  text-align: center;
 }
