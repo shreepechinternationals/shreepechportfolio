@@ -3,55 +3,59 @@ import React from "react";
 function Activities() {
   return (
     <>
-      <div className="container-fluid" id="abt-us">
-        <header id="about-us-title">How We Achieve Work</header>
-        <div className="container my-5">
-          <div className="row justify-content-center align-items-center position-relative">
-            <div className="col-md-4 workflow-step">
-              <img
-                src="images/activities/1.jpg"
-                alt="Send in your requirement"
-              />
-              <p>Send in your requirement</p>
-            </div>
-            <div className="col-md-1 workflow-arrow long-horizontal-arrow" />
-            
-            <div className="col-md-4 workflow-step">
-              <img
-                src="images/activities/2.jpg"
-                alt="Communicate on Project terms"
-              />
-              <p>Communicate on Project terms</p>
+      <div className="container">
+        <div className="our-services">
+          <header id="about-us-title">How We Work</header>
+          <p className="lead" id="services-desc">
+            We gather requirements, discuss terms, build the project,
+            <br /> deliver it, and finalize with payment.
+          </p>
+        </div>
+        <div className="container text-center">
+          <div className="row">
+            <div className="col">
+              <div className="activities-box">
+                <img className="activities-img" src="images/activities/1.jpg" />
+              </div>
+              <h2 className="name">Send in your requirements</h2>
             </div>
           </div>
-          <div className="row justify-content-center align-items-center mt-4 position-relative">
-            <div className="col-md-1">
-              <div className="col-md-1 workflow-arrow vertical-arrow" /> 
-              
-              <div className="col-md-4 workflow-step">
-                <img src="images/activities/3.jpg" alt="Project Begins" />
-                <p>Project Begins</p>
+          <div className="row">
+            <div className="col">
+              <div className="activities-box">
+                <img className="activities-img" src="images/activities/2.jpg" />
               </div>
-              <div className="col-md-1 workflow-arrow long-horizontal-arrow" />
-             
-              <div className="col-md-4 workflow-step">
-                <img src="images/activities/4.jpg" alt="Build your project" />
-                <p>Build your project</p>
-              </div>
+              <h2 className="name">Communicate on Project Terms</h2>
             </div>
-            <div className="row justify-content-center align-items-center mt-4 position-relative">
-              
-              <div className="col-md-4 workflow-step">
-                <img src="images/activities/5.jpg" alt="Deliver Project" />
-                <p>Deliver Project</p>
+            <div className="col">
+              <div className="activities-box">
+                <img className="activities-img" src="images/activities/3.jpg" />
               </div>
-              <div className="col-md-1 workflow-arrow long-horizontal-arrow" />
-              
-              <div className="col-md-4 workflow-step">
-                <img src="images/activities/6.jpg" alt="Complete Payment" />
-                <p>Complete Payment</p>
-                <div className="workflow-arrow curved-arrow" /> 
+              <h2 className="name">Project Begins</h2>
+            </div>
+            <div className="col">
+              <div className="activities-box">
+                <img className="activities-img" src="images/activities/6.jpg" />
               </div>
+              <h2 className="name">Build Your Project</h2>
+            </div>
+            <div className="row">
+              <div className="col">
+                <div className="activities-box">
+                  <img
+                    className="activities-img"
+                    src="images/activities/5.jpg"
+                  />
+                </div>
+                <h2 className="name">Deliver Project</h2>
+              </div>
+            
+            <div className="col">
+              <div className="activities-box">
+                <img className="activities-img" src="images/activities/4.jpg" />
+              </div>
+              <h2 className="name">Complete Payment</h2>
+            </div>
             </div>
           </div>
         </div>

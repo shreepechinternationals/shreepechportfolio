@@ -23,6 +23,10 @@ function Navbar() {
 
   return (
     <nav className="navbar">
+      <div className="navbar-left">
+        <img src="images/logo/SHREEPECH.png" alt="Company Logo" className="company-logo" />
+        <h1 className="company-title">Shreepech International</h1>
+      </div>
       <div className="navbar-right">
         <button onClick={toggleDarkMode} className="toggle-button">
           {isDarkMode ? (

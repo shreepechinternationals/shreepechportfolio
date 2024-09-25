@@ -8,7 +8,7 @@ function header() {
         id="hero"
       >
         <div className="row w-100">
-          <header id="title">Shreepech International</header>
+          <header id="title"> Welcome to Shreepech International...</header>
           <div className="col-md-6 d-flex flex-column justify-content-center">
             <h1 className="display-4 font-weight-bold">
               Where Creativity Meets Technology.
