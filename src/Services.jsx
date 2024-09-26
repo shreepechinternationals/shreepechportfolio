@@ -10,25 +10,25 @@ function Services() {
         <div className="container text-center" id="teams">
             <div className="row">
                 <div className="col">
-                    <div className="img-box">
+                    <div className="img-box-services">
                         <img className="services-img" src="images/icons/wd.png"/>
                     </div>
                 <p>Web Development</p>
                 </div>
                 <div className="col">
-                <div className="img-box">
+                <div className="img-box-services">
                         <img className="services-img" src="images/icons/md.png"/>
                     </div>
                 <p>Mobile App Development</p>
                 </div>
                 <div className="col">
-                <div className="img-box">
+                <div className="img-box-services">
                         <img className="services-img" src="images/icons/dm.png"/>
                     </div>
                 <p>Digital Marketing</p>
                 </div>
                 <div className="col">
-                <div className="img-box">
+                <div className="img-box-services">
                         <img className="services-img" src="images/icons/ds.png"/>
                     </div>
                 <p>Data Science</p>
@@ -37,19 +37,19 @@ function Services() {
 
             <div className="row">
                 <div className="col">
-                <div className="img-box">
+                <div className="img-box-services">
                         <img className="services-img" src="images/icons/uiux.png"/>
                     </div>
                 <p>UI/UX Design</p>
                 </div>
                 <div className="col">
-                <div className="img-box">
+                <div className="img-box-services">
                         <img className="services-img" src="images/icons/seo.png"/>
                     </div>
                 <p>SEO</p>
                 </div>
                 <div className="col">
-                <div className="img-box">
+                <div className="img-box-services">
                         <img className="services-img" src="images/icons/cw.png"/>
                     </div>
                 <p>Content Writing</p>

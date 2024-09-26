@@ -10,6 +10,7 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 import BackToTopButton from './BackToTopButton'
 import Activities from './Activities'
+import OurCompany from './OurCompany'
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
     <Header/>
     <Services/>
     <About/>
+    <OurCompany/>
     <Clients/>
     {/* <Careers/> */}
     <Activities/>
