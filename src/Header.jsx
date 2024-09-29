@@ -3,6 +3,7 @@ import "./index.css";
 function header() {
   return (
     <>
+    <div className="landing-page">
       <div
         className="container-fluid d-flex align-items-center"
         id="hero"
@@ -54,6 +55,7 @@ function header() {
             
           </div>
         </div>
+      </div>
       </div>
     </>
   );
