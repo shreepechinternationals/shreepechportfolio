@@ -36,7 +36,7 @@ function About() {
             <div className="row">
                 <div className="col">
                 <div className="img-box-career">
-                            <img className="team-img" src="https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/422881575_400928188976209_7547068254776703562_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=lW6fRJII8wcQ7kNvgEJt1XT&_nc_ht=scontent.fktm17-1.fna&_nc_gid=A_Jg94n5NeFGxrT4scEP2ys&oh=00_AYD3j9q0wWtVMx_96abuFx5IbpU_LxTA9Ms9AzAC_gXlyg&oe=66F5AA56"/>
+                            <img className="team-img" src="https://media.licdn.com/dms/image/v2/D5603AQH6MKJmRfpmkA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726194465644?e=1733356800&v=beta&t=HbaH423QwcsLUzkfoqS4B5DcXW3B6xW7qU3TRGpgSOs"/>
                         </div>
                     <h2 className='name'>Saran Adhikari</h2>
                     <h3 className='position'>Position</h3>

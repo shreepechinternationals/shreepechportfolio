@@ -442,13 +442,16 @@ p.lead {
 }
 
 /* FAQ's */
-#faq{
-  color: #1A1717;
+.faq-box{
+  width: 100%;
   background-color: #ECE9E9;
+}
+#faq{
+  width: 100%;
+  color: #1A1717;
   font-family: "Space Grotesk", sans-serif ;
   justify-content: center;
   align-items: center;
-  width: 100%;
   padding: 2rem;
 }
 #faq-content{
@@ -555,14 +558,14 @@ p.lead {
 
 .activities-img{
   display: block;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
 }
 .activities-box{
-
   display: inline-block;
   padding: 0.625rem;
+  
   
 }
 
