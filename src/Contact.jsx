@@ -61,7 +61,7 @@ function Contact() {
             <form>
               <div className="container" id="form-container">
                 <div className="row">
-                  <div className="col">
+                  <div className="col-md-6">
                     <input
                       type="text"
                       className="form-control"
@@ -69,7 +69,7 @@ function Contact() {
                       placeholder="First Name"
                     />
                   </div>
-                  <div className="col">
+                  <div className="col-md-6">
                     
                     <input
                       type="text"
@@ -80,7 +80,7 @@ function Contact() {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-md-12">
                     <input
                       type="email"
                       className="form-control"
@@ -90,7 +90,7 @@ function Contact() {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-md-6">
                     <input
                       type="text"
                       className="form-control"
@@ -98,7 +98,7 @@ function Contact() {
                       placeholder="Service of Query"
                     />
                   </div>
-                  <div className="col">
+                  <div className="col-md-6">
                     
                     <input
                       type="text"

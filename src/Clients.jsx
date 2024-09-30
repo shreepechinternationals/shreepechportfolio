@@ -34,12 +34,13 @@ function Clients() {
       <header id="clients-title">OUR CLIENTS</header>
       <div className="container text-center">
         <div className="row">
-          <div className="col"><i className="fa-solid fa-angle-left"></i></div>
+          {/* <div className="col"><i className="fa-solid fa-angle-left"></i></div> */}
           <div className="col">{clients[(currentIndex + 0) % clients.length]}</div>
           <div className="col">{clients[(currentIndex + 1) % clients.length]}</div>
           <div className="col">{clients[(currentIndex + 2) % clients.length]}</div>
           <div className="col">{clients[(currentIndex + 3) % clients.length]}</div>
-          <div className="col"><i className="fa-solid fa-angle-right"></i></div>
+          <div className="col">{clients[(currentIndex + 4) % clients.length]}</div>
+          {/* <div className="col"><i className="fa-solid fa-angle-right"></i></div> */}
         </div>
       </div>
     </div>

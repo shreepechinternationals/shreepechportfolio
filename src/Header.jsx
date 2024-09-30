@@ -1,8 +1,10 @@
 import React from "react";
 import "./index.css";
+import Navbar from "./Navbar";
 function header() {
   return (
     <>
+    <Navbar />
     <div className="landing-page">
       <div
         className="container-fluid d-flex align-items-center"
@@ -10,8 +12,8 @@ function header() {
       >
         <div className="row w-100">
           <header id="title"> Welcome to Shreepech International...</header>
-          <div className="col-md-6 d-flex flex-column justify-content-center">
-            <h1 className="display-4 font-weight-bold">
+          <div className="col-md-6 d-flex flex-column">
+            <h1 className="display-4 font-weight-bold" id="tagline">
               Where Creativity Meets Technology.
             </h1>
             <p className="lead">
@@ -25,14 +27,14 @@ function header() {
               <div>
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn "
                   id="lets-get-it"
                 >
                   Let’s Get It
                 </button>
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn"
                   id="see-more"
                 >
                   See More
@@ -45,7 +47,7 @@ function header() {
             <div className="rectangle r1" />
             <div className="rectangle r2" />
             <div className="rectangle r3" />
-            {/* <div className="rectangle r4" /> */}
+            <div className="rectangle r4" />
             <div className="rectangle r5" />
             <div className="rectangle r6" />
             <div className="rectangle r7" />

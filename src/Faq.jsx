@@ -13,7 +13,7 @@ function Faq() {
               id="f-query"
             >
               <div className="row">
-                <div className="col-md-6 " id="faq-box">
+                <div className="col-md-6 " id="faq-box-content">
                   <h2 className="question">What is Lorem Ipsum?</h2>
 
                   <p className="lead">
@@ -24,7 +24,7 @@ function Faq() {
                   </p>
                   <hr />
                 </div>
-                <div className="col-md-6 " id="faq-box">
+                <div className="col-md-6 " id="faq-box-content">
                   <h2 className="question">What is Lorem Ipsum?</h2>
                   <p className="lead">
                     {" "}
@@ -37,7 +37,7 @@ function Faq() {
               </div>
               
               <div className="row">
-                <div className="col-md-6" id="faq-box">
+                <div className="col-md-6" id="faq-box-content">
                   <h2 className="question">What is Lorem Ipsum?</h2>
                   <p className="lead">
                     {" "}
@@ -47,7 +47,7 @@ function Faq() {
                   </p>
                   <hr />
                 </div>
-                <div className="col-md-6" id="faq-box">
+                <div className="col-md-6" id="faq-box-content">
                   <h2 className="question">What is Lorem Ipsum?</h2>
                   <p className="lead">
                     {" "}
@@ -59,7 +59,7 @@ function Faq() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-6" id="faq-box">
+                <div className="col-md-6" id="faq-box-content">
                   <h2 className="question">What is Lorem Ipsum?</h2>
                   <p className="lead">
                     {" "}
@@ -69,7 +69,7 @@ function Faq() {
                   </p>
                   <hr />
                 </div>
-                <div className="col-md-6" id="faq-box">
+                <div className="col-md-6" id="faq-box-content">
                   <h2 className="question">What is Lorem Ipsum?</h2>
                   <p className="lead">
                     {" "}

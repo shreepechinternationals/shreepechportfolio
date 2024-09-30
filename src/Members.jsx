@@ -1,15 +1,15 @@
 import React from 'react'
 
-function About() {
+function Members() {
   return (
     <div className="container mt-5">
         <div className="circle"> 
-    <div className="container-fluid" id="abt-us"> 
+    <div className="container-fluid" id="members"> 
     <div className="our-services"> 
-        <header id='about-us-title'>Meet Our Team Members</header>
+        <header id='members-title'>Meet Our Team Members</header>
         <p className="lead" id="services-desc">A group of skilled professionals, working together to bring<br/> innovative ideas to life and deliver exceptional results.</p>
         </div>
-        <div className="container text-center">
+        <div className="container text-center" id="meet-our-team">
             <div className="row">
                 <div className="col">
                     <div className="img-box-career">
@@ -27,7 +27,7 @@ function About() {
                 </div>
                 <div className="col">
                 <div className="img-box-career">
-                            <img className="team-img" src="https://media.licdn.com/dms/image/v2/D4D03AQHI1O2c1rV9AA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670298340438?e=1732752000&v=beta&t=fxc-PgNGyahAtTnBv_t9yuzvtatyiID2H10O4F9l72I"/>
+                            <img className="team-img" src="https://media.licdn.com/dms/image/v2/D4D03AQHI1O2c1rV9AA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670298340438?e=1733356800&v=beta&t=KzRAf_sfSAu41snP837PbcYMY6SDzuxkqgLlizaUvqs"/>
                         </div>
                     <h2 className='name'>Rojan Dhungel</h2>
                     <h3 className='position'>Position</h3>
@@ -36,7 +36,7 @@ function About() {
             <div className="row">
                 <div className="col">
                 <div className="img-box-career">
-                            <img className="team-img" src="https://media.licdn.com/dms/image/v2/D5603AQH6MKJmRfpmkA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726194465644?e=1733356800&v=beta&t=HbaH423QwcsLUzkfoqS4B5DcXW3B6xW7qU3TRGpgSOs"/>
+                            <img className="team-img" src="https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/422881575_400928188976209_7547068254776703562_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=HRizCfztpswQ7kNvgGCPWj0&_nc_ht=scontent.fktm17-1.fna&_nc_gid=ABicNnVhIt95A0uevZj-M0X&oh=00_AYCoca8TGCiEUgZxTGtKPYwIELfRVP8glp0ZtU6v9wX6Jg&oe=67006E96"/>
                         </div>
                     <h2 className='name'>Saran Adhikari</h2>
                     <h3 className='position'>Position</h3>
@@ -63,4 +63,4 @@ function About() {
   )
 }
 
-export default About
+export default Members

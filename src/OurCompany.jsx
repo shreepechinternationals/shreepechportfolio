@@ -108,7 +108,7 @@ function OurCompany() {
     <>
       <div className="container mt-5" id="our-company">
         <div className="our-services">
-          <header id="about-us-title">About Us</header>
+          <header id="members-title">About Us</header>
         </div>
 
         <div className="section-primary" id="value-content">
@@ -134,7 +134,7 @@ function OurCompany() {
               whileInView="visible"
               variants={fadeInRight}
               viewport={{ once: true }}
-            >
+              id="company-contents">
               <h2>Who We Are</h2>
               <p className="lead">
                 At Shreepech International, we are a team of passionate
@@ -156,7 +156,7 @@ function OurCompany() {
               whileInView="visible"
               variants={fadeInRight}
               viewport={{ once: true }}
-            >
+              id="company-contents">
               <h2>Our Mission</h2>
               <p className="lead">
                 Our mission is to harness the power of technology to deliver
@@ -208,7 +208,7 @@ function OurCompany() {
               whileInView="visible"
               variants={fadeInRight}
               viewport={{ once: true }}
-            >
+              id="company-contents">
               <h2>Our Vision</h2>
               <p className="lead">
                 Our vision is to be a leader in technology innovation, shaping
@@ -230,7 +230,7 @@ function OurCompany() {
               whileInView="visible"
               variants={fadeInRight}
               viewport={{ once: true }}
-            >
+            id="company-contents">
               <h2>Future Plans</h2>
               <p className="lead">
                 Our future plans focus on expanding our services to incorporate

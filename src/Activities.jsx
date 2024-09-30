@@ -97,7 +97,7 @@ function Activities() {
     <>
       <div className="container" ref={ref}>
         <div className="our-services">
-          <header id="about-us-title">How We Work</header>
+          <header id="members-title">How We Work</header>
           <p className="lead" id="services-desc">
             We gather requirements, discuss terms, build the project,
             <br /> deliver it, and finalize with payment.
