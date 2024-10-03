@@ -1,15 +1,16 @@
-import React, { useEffect, useRef } from "react";
+import React from 'react';
+import Threejs from './Threejs'; // Import the Three.js background component
 
-
-function Footer() {
-  
-
+const WavyFooter = () => {
   return (
     <>
-
+        
       {/* Footer Content */}
       <div className="container-fluid" id="footer" style={{ position: "relative", zIndex: 1 }}>
         <footer className="footer">
+        <div id="threejs-background">
+            <Threejs />
+        </div>
           <div className="container">
             <div className="row">
               {/* Logo Column */}
@@ -63,9 +64,12 @@ function Footer() {
       {/* Copyright Footer */}
       <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
         <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
+
+        
       </div>
+      
     </>
   );
-}
+};
 
-export default Footer;
+export default WavyFooter;

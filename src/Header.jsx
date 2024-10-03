@@ -1,10 +1,10 @@
 import React from "react";
 import "./index.css";
-import Navbar from "./Navbar";
+
 function header() {
   return (
     <>
-    <Navbar />
+    
     <div className="landing-page">
       <div
         className="container-fluid d-flex align-items-center"

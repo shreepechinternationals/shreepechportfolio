@@ -8,6 +8,6 @@ import BackToTopButton from './BackToTopButton.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <BackToTopButton />
+    
   </StrictMode>,
 )
