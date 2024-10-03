@@ -60,9 +60,17 @@ const Threejs = () => {
       for (let i = 0; i < positions.length; i += 3) {
         const z = positions[i + 2];
         const color = new THREE.Color();
-        // Oceanic blue to green gradient based on Z position
-        const hue = 0.5 + z / 50; // Adjust this to control color gradient
-        color.setHSL(hue, 0.7, 0.5);
+      
+        // Oceanic gradient based on Z position
+        // Adjust the colors as needed
+        const baseColor1 = new THREE.Color(0x00bfff); // Bright Deep Sky Blue
+        const baseColor2 = new THREE.Color(0x7fffd4); // Aquamarine
+      
+        // Interpolating colors based on Z position
+        const t = (z + 50) / 100; // Normalize z position for blending
+        color.lerpColors(baseColor1, baseColor2, t); // Mix the two colors
+      
+        // Set the color array for the vertices
         colors[i] = color.r;
         colors[i + 1] = color.g;
         colors[i + 2] = color.b;
