@@ -58,15 +58,17 @@ const WavyFooter = () => {
               </div>
             </div>
           </div>
-        </footer>
-      </div>
-
-      {/* Copyright Footer */}
-      <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
+          {/* Copyright Footer */}
+       <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
         <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
 
         
       </div>
+        </footer>
+       
+      </div>
+       
+      
       
     </>
   );

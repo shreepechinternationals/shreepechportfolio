@@ -56,7 +56,7 @@ body {
   display: flex;
   justify-content: space-between; /* To separate left and right sections */
   align-items: center;
-  padding: 0.625rem;
+  padding: 0 0.625rem;
   background-color: var(--navbar-bg);
 }
 .navbar-left {
@@ -125,12 +125,22 @@ body {
 
 /* CSS for first page */
 .landing-page{
-  /* height: 100vh; */
+  /* padding: 20px; */
+  height: 100vh;
+  display: flex;                  /* Enable flexbox */
+  justify-content: center;        /* Center horizontally */
+  align-items: center;            /* Center vertically */
+  min-height: 100vh;             /* Ensure full viewport height */
+  text-align: left;             /* Center text alignment */
+  background-color: #1a1717;     /* Background color (if applicable) */
+  padding: 20px;                 /* Optional padding */
+  position: relative; 
 }
 #hero{
-  height: 100vh;
+  /* height: 100vh; */
   width: 80%;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  margin: auto;
   padding: 2rem 0;
   overflow: hidden;
   /* background-color: white; */
@@ -140,18 +150,19 @@ body {
   font-family: "Space Grotesk", sans-serif ;
   display: inline-flex;
   font-size: larger;
+  
   padding: 0.625rem;
   text-align: left;
 }
 
 #tagline {
   font-size: 3rem;
-  padding: 0.625rem 0;
+  padding: 0.625rem;
   font-family: "Space Grotesk", sans-serif;
 }
 
 p.lead {
-  padding: 0.625rem 0;
+  padding: 0.625rem;
   font-size: 1.2rem;
   font-family: "Space Grotesk", sans-serif;
 }
@@ -288,6 +299,7 @@ p.lead {
 /* Services */
 
 #our-services{
+  /* height: 100vh; */
   font-family: "Space Grotesk", sans-serif ;
   justify-content: center;
   align-items: center;
@@ -651,12 +663,14 @@ p.lead {
   /* background-color: #1A1717; */
   /* color: #fff; */
   padding: 2.5rem;
+  height: 350px;
 }
 .footer ul li{
   padding: 0.125rem ;
 }
 .footer a {
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: white;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -672,8 +686,10 @@ p.lead {
   max-width: 70%;
 }
 .copyright{
-  padding: 0.125rem;
-  background-color:  #262525;
+  /* padding: 0.125rem; */
+  width: 100%;
+  /* background-color:  #262525; */
+  margin-top: 4rem;
   color: #ECE9E9;
   text-align: center;
   font-weight: 500;

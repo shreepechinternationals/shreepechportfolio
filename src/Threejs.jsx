@@ -11,7 +11,7 @@ const Threejs = () => {
   useEffect(() => {
     const mount = mountRef.current;
     const width = mount.clientWidth;
-    const height = 300; // Fixed height for the footer background
+    const height = 380; // Fixed height for the footer background
 
     // Scene setup
     const scene = new THREE.Scene();
@@ -19,7 +19,7 @@ const Threejs = () => {
 
     // Camera setup
     const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    camera.position.z = 300; // Ensure the camera is far enough
+    camera.position.z = 250; // Ensure the camera is far enough
     cameraRef.current = camera;
 
     // Renderer setup with transparent background
@@ -60,16 +60,15 @@ const Threejs = () => {
       for (let i = 0; i < positions.length; i += 3) {
         const z = positions[i + 2];
         const color = new THREE.Color();
-      
+
         // Oceanic gradient based on Z position
-        // Adjust the colors as needed
         const baseColor1 = new THREE.Color(0x00bfff); // Bright Deep Sky Blue
         const baseColor2 = new THREE.Color(0x7fffd4); // Aquamarine
-      
+
         // Interpolating colors based on Z position
         const t = (z + 50) / 100; // Normalize z position for blending
         color.lerpColors(baseColor1, baseColor2, t); // Mix the two colors
-      
+
         // Set the color array for the vertices
         colors[i] = color.r;
         colors[i + 1] = color.g;
@@ -84,15 +83,19 @@ const Threejs = () => {
     const animate = () => {
       animationId = requestAnimationFrame(animate);
 
-      const time = Date.now() * 0.0003; // Slower animation for smoother waves
+      const time = Date.now() * 0.0005; // Slower animation for oceanic effect
       const vertices = plane.geometry.attributes.position.array;
 
       for (let i = 0; i < vertices.length; i += 3) {
         const x = vertices[i];
         const y = vertices[i + 1];
+
+        // Distance-based wave pattern for more realistic ocean waves
         const distance = Math.sqrt(x * x + y * y);
-        // Smoother sinusoidal wave for oceanic effect
-        vertices[i + 2] = Math.sin(distance * 0.04 + time) * 15; // Increased amplitude for larger waves
+
+        // Create more complex wave movement using sine and cosine for rolling waves
+        vertices[i + 2] = Math.sin(distance * 0.03 + time) * 10 + 
+                          Math.cos(distance * 0.05 + time * 0.7) * 10;
       }
 
       plane.geometry.attributes.position.needsUpdate = true;
