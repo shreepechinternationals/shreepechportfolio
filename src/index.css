@@ -24,6 +24,51 @@ body {
   margin: 0;
   padding: 0; */
 }
+/* Loading Screen */
+/* LoadingScreen.css */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--navbar-bg) ; /* Background color of the loading screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it appears above other content */
+}
+
+.loader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-logo {
+  width: 80px; /* Adjusted size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Position it at the center of the loader */
+  z-index: 1; /* Ensure logo appears above the loading circle */
+}
+
+.loading-circle {
+  width: 120px; /* Adjusted width of the loading circle */
+  height: 120px; /* Adjusted height of the loading circle */
+  border: 8px solid rgba(0, 0, 0, 0.2); /* Circle background color */
+  border-top: 8px solid #007bff; /* Color of the loading circle */
+  border-radius: 50%; /* Make it a circle */
+  animation: spin 1s linear infinite; /* Animation for the loading circle */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
 
 /* Backtotopbutton */
 .back-to-top-button {
@@ -56,7 +101,7 @@ body {
   display: flex;
   justify-content: space-between; /* To separate left and right sections */
   align-items: center;
-  padding: 0 0.625rem;
+  padding: 0.625rem;
   background-color: var(--navbar-bg);
 }
 .navbar-left {
@@ -135,6 +180,7 @@ body {
   background-color: #1a1717;     /* Background color (if applicable) */
   padding: 20px;                 /* Optional padding */
   position: relative; 
+  background-color: var(--navbar-bg);
 }
 #hero{
   /* height: 100vh; */

@@ -14,6 +14,7 @@ import OurCompany from './OurCompany';
 import Members from './Members';
 import WavyFooter from './WavyFooter';
 import Threejs from './Threejs';
+import LoadingScreen from './LoadingScreen';
 
 
 function App() {
@@ -75,6 +76,7 @@ function App() {
   
   return (
     <>
+      <LoadingScreen/>
       <Navbar />
       <Header />
       <Services />
