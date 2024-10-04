@@ -61,12 +61,12 @@ const WavyFooter = () => {
           {/* Copyright Footer */}
        
         </footer>
-        <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
-        <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
-        </div>
+        
       </div>
        
-      
+      <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
+        <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
+        </div>
       
     </>
   );
