@@ -68,6 +68,8 @@
 import React from "react";
 import { useSpring, animated } from "@react-spring/web";
 import "./index.css";
+import Navbar from "./Navbar";
+
 
 function Header() {
   // Animation for the title, tagline, and buttons
@@ -95,7 +97,10 @@ function Header() {
 
   return (
     <>
+      
+
       <div className="landing-page">
+      <Navbar/>
         <div className="container-fluid d-flex align-items-center" id="hero">
           <div className="row">
             <div className="col-md-6 d-flex flex-column">

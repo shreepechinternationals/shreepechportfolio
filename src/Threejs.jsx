@@ -11,7 +11,7 @@ const Threejs = () => {
   useEffect(() => {
     const mount = mountRef.current;
     const width = mount.clientWidth;
-    const height = 380; // Fixed height for the footer background
+    const height = 370; // Fixed height for the footer background
 
     // Scene setup
     const scene = new THREE.Scene();
@@ -19,7 +19,7 @@ const Threejs = () => {
 
     // Camera setup
     const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    camera.position.z = 250; // Ensure the camera is far enough
+    camera.position.z = 200; // Ensure the camera is far enough
     cameraRef.current = camera;
 
     // Renderer setup with transparent background
@@ -52,7 +52,7 @@ const Threejs = () => {
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
     scene.add(ambientLight);
 
-    // Update colors dynamically (oceanic gradient)
+    // Update colors dynamically (darker oceanic gradient)
     const updateColors = () => {
       const positions = geometry.attributes.position.array;
       const colors = geometry.attributes.color.array;
@@ -61,9 +61,9 @@ const Threejs = () => {
         const z = positions[i + 2];
         const color = new THREE.Color();
 
-        // Oceanic gradient based on Z position
-        const baseColor1 = new THREE.Color(0x00bfff); // Bright Deep Sky Blue
-        const baseColor2 = new THREE.Color(0x7fffd4); // Aquamarine
+        // Darker oceanic gradient based on Z position
+        const baseColor1 = new THREE.Color(0x000080); // Dark Blue
+        const baseColor2 = new THREE.Color(0x1e90ff); // Dodger Blue
 
         // Interpolating colors based on Z position
         const t = (z + 50) / 100; // Normalize z position for blending

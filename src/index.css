@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  
 }
 body {
   background-color: #1A1717; 
@@ -101,7 +102,7 @@ body {
   display: flex;
   justify-content: space-between; /* To separate left and right sections */
   align-items: center;
-  padding: 0.625rem;
+  /* padding: 0.625rem; */
   background-color: var(--navbar-bg);
 }
 .navbar-left {
@@ -172,12 +173,12 @@ body {
 .landing-page{
   /* padding: 20px; */
   height: 100vh;
-  display: flex;                  /* Enable flexbox */
-  justify-content: center;        /* Center horizontally */
-  align-items: center;            /* Center vertically */
+  display: flex;   
+  flex-direction: column;               
+  /* justify-content: center;        
+  align-items: center;             */
   min-height: 100vh;             /* Ensure full viewport height */
   text-align: left;             /* Center text alignment */
-  background-color: #1a1717;     /* Background color (if applicable) */
   padding: 20px;                 /* Optional padding */
   position: relative; 
   background-color: var(--navbar-bg);
@@ -345,7 +346,7 @@ p.lead {
 /* Services */
 
 #our-services{
-  /* height: 100vh; */
+  height: 100vh;
   font-family: "Space Grotesk", sans-serif ;
   justify-content: center;
   align-items: center;
@@ -702,12 +703,36 @@ p.lead {
 .fa-angle-right{
   cursor: pointer;
 }
+#clients {
+  position: relative;
+}
+
+#clients .row {
+  position: relative;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.fa-angle-left {
+  left: 10px; /* Adjust as needed */
+}
+
+.fa-angle-right {
+  right: 10px; /* Adjust as needed */
+}
+
 /* Footer */
 
 #footer {
   font-family: "Space Grotesk", sans-serif ;
   /* background-color: #1A1717; */
-  /* color: #fff; */
+  color: #fff;
   padding: 2.5rem;
   height: 350px;
 }
@@ -778,4 +803,5 @@ p.lead {
   
 }
 
+/* Scroll */
 

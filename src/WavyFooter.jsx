@@ -27,7 +27,7 @@ const WavyFooter = () => {
                       <li><a href="#">Web Development</a></li>
                       <li><a href="#">Mobile App Development</a></li>
                       <li><a href="#">Digital Marketing</a></li>
-                      <li><a href="#">Data Science</a></li>
+                      {/* <li><a href="#">Data Science</a></li> */}
                       <li><a href="#">UI/UX Design</a></li>
                       <li><a href="#">SEO</a></li>
                       <li><a href="#">Content Writing</a></li>
@@ -41,7 +41,7 @@ const WavyFooter = () => {
                       <li><a href="#">Career</a></li>
                       <li><a href="#">Blogs</a></li>
                       <li><a href="#">Contact Us</a></li>
-                      <li><a href="#">Sitemap</a></li>
+                      {/* <li><a href="#">Sitemap</a></li> */}
                     </ul>
                   </div>
                   {/* Connect with Us Column */}
@@ -51,7 +51,7 @@ const WavyFooter = () => {
                       <li><a href="#">Instagram</a></li>
                       <li><a href="#">Facebook</a></li>
                       <li><a href="#">LinkedIn</a></li>
-                      <li><a href="#">Mail</a></li>
+                      <li><a href="#">E-Mail</a></li>
                     </ul>
                   </div>
                 </div>
@@ -59,13 +59,11 @@ const WavyFooter = () => {
             </div>
           </div>
           {/* Copyright Footer */}
-       <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
-        <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
-
-        
-      </div>
-        </footer>
        
+        </footer>
+        <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
+        <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
+        </div>
       </div>
        
       
