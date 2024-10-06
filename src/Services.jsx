@@ -172,7 +172,7 @@ function Services() {
               Digital Marketing
             </motion.p>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <motion.div
               className="img-box-services"
               initial="hidden"
@@ -190,7 +190,7 @@ function Services() {
             >
               Data Science
             </motion.p>
-          </div>
+          </div> */}
         </div>
 
         <div className="row">

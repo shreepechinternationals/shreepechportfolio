@@ -188,7 +188,7 @@ function Header() {
   const imageSources = [
     "",
     "https://img.freepik.com/free-photo/close-up-hands-business-concept_23-2149151165.jpg?t=st=1728195899~exp=1728199499~hmac=8d13fcc17c8ce1b4706df79ce7fc07dfaf5dcdf1d2da606c8c1cc3d33e6837d3&w=1060",
-    "https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?t=st=1728195227~exp=1728198827~hmac=6b7110c250af91a95c57b7bce9033ac2a7523dee32f62b28a3a029f4301be98a&w=1060",
+    "https://img.freepik.com/free-vector/blue-futuristic-networking-technology-vector_53876-151537.jpg?t=st=1728211992~exp=1728215592~hmac=65e7b3c7e11ca7ba884ae37bef9f08f77874a348348b71d1780db31ea2458814&w=360",
     "https://img.freepik.com/free-photo/international-day-education-futuristic-style_23-2150998775.jpg?t=st=1728196368~exp=1728199968~hmac=1d82cb5b34fa6266f8ed38909690f0b2e24fb21dc0d368a4cab7a5e1ddf6479c&w=740",
     "https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?t=st=1728195227~exp=1728198827~hmac=6b7110c250af91a95c57b7bce9033ac2a7523dee32f62b28a3a029f4301be98a&w=1060",
     "https://img.freepik.com/free-photo/futuristic-school-classroom-future-students_23-2150906356.jpg?t=st=1728196489~exp=1728200089~hmac=6b047c7297270b04f23be697045b4eb98cf3de88677193d01930fa6878530d99&w=740",
