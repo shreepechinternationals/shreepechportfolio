@@ -95,7 +95,7 @@ function Services() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={fadeIn}
-          transition={{ duration: 1, delay: 0.2 }}
+          transition={{ duration: 1, delay: 0.1 }}
         >
           Our Services: Our Most Popular Solution
         </motion.header>
@@ -105,7 +105,7 @@ function Services() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={fadeIn}
-          transition={{ duration: 1.2, delay: 0.4 }}
+          transition={{ duration: 1.1, delay: 0.3 }}
         >
           Digitalize your business to reach your market.
           <br />
@@ -121,7 +121,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 0.6 }}
+              transition={{ duration: 1, delay: 0.4 }}
             >
               <img className="services-img" src="images/icons/wd.png" />
             </motion.div>
@@ -129,7 +129,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 0.8 }}
+              transition={{ duration: 1.2, delay: 0.6 }}
             >
               Web Development
             </motion.p>
@@ -140,7 +140,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 1 }}
+              transition={{ duration: 1, delay: 0.8 }}
             >
               <img className="services-img" src="images/icons/md.png" />
             </motion.div>
@@ -148,7 +148,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 1.2 }}
+              transition={{ duration: 1.2, delay: 1 }}
             >
               Mobile App Development
             </motion.p>
@@ -159,7 +159,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 1.4 }}
+              transition={{ duration: 1, delay: 1.2 }}
             >
               <img className="services-img" src="images/icons/dm.png" />
             </motion.div>
@@ -167,7 +167,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 1.6 }}
+              transition={{ duration: 1.2, delay: 1.4 }}
             >
               Digital Marketing
             </motion.p>
@@ -178,7 +178,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 1.8 }}
+              transition={{ duration: 1, delay: 1.6 }}
             >
               <img className="services-img" src="images/icons/ds.png" />
             </motion.div>
@@ -186,7 +186,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 2 }}
+              transition={{ duration: 1.2, delay: 1.8 }}
             >
               Data Science
             </motion.p>
@@ -200,7 +200,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 2.2 }}
+              transition={{ duration: 1, delay: 2.0 }}
             >
               <img className="services-img" src="images/icons/uiux.png" />
             </motion.div>
@@ -208,7 +208,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 2.4 }}
+              transition={{ duration: 1.2, delay: 2.2 }}
             >
               UI/UX Design
             </motion.p>
@@ -219,7 +219,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 2.6 }}
+              transition={{ duration: 1, delay: 2.4 }}
             >
               <img className="services-img" src="images/icons/seo.png" />
             </motion.div>
@@ -227,7 +227,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 2.8 }}
+              transition={{ duration: 1.2, delay: 2.6 }}
             >
               SEO
             </motion.p>
@@ -238,7 +238,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 3 }}
+              transition={{ duration: 1, delay: 2.8 }}
             >
               <img className="services-img" src="images/icons/cw.png" />
             </motion.div>
@@ -246,7 +246,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 3.2 }}
+              transition={{ duration: 1, delay: 3 }}
             >
               Content Writing
             </motion.p>

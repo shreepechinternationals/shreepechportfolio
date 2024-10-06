@@ -1,5 +1,6 @@
 import React from 'react';
 import Threejs from './Threejs'; // Import the Three.js background component
+import Copyright from './Copyright';
 
 const WavyFooter = () => {
   return (
@@ -59,14 +60,12 @@ const WavyFooter = () => {
             </div>
           </div>
           {/* Copyright Footer */}
-       
+          <Copyright/>
         </footer>
         
       </div>
        
-      <div className="copyright" style={{ position: "relative", zIndex: 1 }}>
-        <footer>Copyright &copy; Shreepech International, 2024. All Rights Reserved.</footer>
-        </div>
+      
       
     </>
   );
