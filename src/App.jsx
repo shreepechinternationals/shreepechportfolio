@@ -22,9 +22,10 @@ function App() {
 
   // useEffect(() => {
   //   const lenis = new Lenis({
-  //     duration: 0.9, // Smooth scrolling duration
+  //     duration: 1.5, // Extended smooth scrolling duration for more gradual movement
   //     easing: (t) => 1 - Math.pow(1 - t, 3), // Cubic easing for a smoother effect
   //     smooth: true,
+  //     smoothTouch: true, // Enable smooth scrolling for touch devices
   //   });
   
   //   // Animation loop
@@ -35,8 +36,8 @@ function App() {
   
   //   // Add shadow effect during scroll
   //   const handleScrollShadow = () => {
-  //     const shadowIntensity = Math.min(window.scrollY / 100, 1); // Limit shadow intensity
-  //     document.body.style.boxShadow = `0px 10px 15px rgba(0, 0, 0, ${shadowIntensity * 0.2})`;
+  //     const shadowIntensity = Math.min(window.scrollY / 200, 1); // Soften shadow intensity for smoother transition
+  //     document.body.style.boxShadow = `0px 10px 20px rgba(0, 0, 0, ${shadowIntensity * 0.2})`;
   //   };
   
   //   // Scroll handler using 100vh height reference
@@ -58,7 +59,7 @@ function App() {
   //     const target = sections[nextSectionIndex].offsetTop;
   
   //     // Scroll smoothly to the target section using lenis
-  //     lenis.scrollTo(target, { duration: 1.5 });
+  //     lenis.scrollTo(target, { duration: 2.0 }); // Extend duration for smoother scroll transition
   //   };
   
   //   // Event listeners
@@ -75,10 +76,10 @@ function App() {
   // }, []);
   
   
+  
   return (
     <>
       <LoadingScreen/>
-
       <Header />
       <Services />
       <Members />

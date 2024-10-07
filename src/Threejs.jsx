@@ -304,7 +304,7 @@ const Threejs = () => {
 
     // Create cubes and add them to the scene
     const createCubes = () => {
-      for (let i = 0; i < 150; i++) {
+      for (let i = 0; i < 200; i++) {
         const geometry = new THREE.SphereGeometry(0.5, 16, 16);
         const material = new THREE.MeshBasicMaterial({ color: colors[i % colors.length] });
         const cube = new THREE.Mesh(geometry, material);

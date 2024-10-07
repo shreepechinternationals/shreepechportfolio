@@ -737,7 +737,7 @@ p.lead {
   right: 10px; /* Adjust as needed */
 }
 
-/* Footer */
+/* Normal Footer */
 
 #footer {
   font-family: "Space Grotesk", sans-serif ;
@@ -745,6 +745,7 @@ p.lead {
   color: #fff;
   padding: 2.5rem;
   height: 350px;
+  
 }
 .footer ul li{
   padding: 0.125rem ;
@@ -764,7 +765,7 @@ p.lead {
 } */
 .footer-logo img {
   width: 50%;
-  max-width: 70%;
+  /* max-width: 70%; */
 }
 .copyright{
   /* padding: 0.125rem; */
@@ -789,6 +790,90 @@ p.lead {
   z-index: -1; /* Send the background behind the footer */
 }
 
+/* Ocean Wave Footer */
+#wavy-footer-base {
+  display: flex;
+  justify-content: center; /* Center footer content */
+  align-items: flex-end;
+  position: relative; /* Required for absolute positioning of waves */
+  overflow: hidden; /* Prevents overflow of waves */
+}
+
+#footer-wave {
+  position: relative;
+  width: 100%;
+  padding: 20px 0; /* Add padding to footer */
+}
+
+.wave-base {
+  position: absolute;
+  top: 0; /* Position the waves at the top of the footer */
+  left: 0;
+  width: 100%;
+  height: 100%; /* Make the wave base cover the footer */
+  overflow: hidden; /* Ensures waves are contained within footer */
+  z-index: 1; /* Set a lower z-index to be behind footer content */
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Set height to match wave */
+  background: url(images/footer-img/wave.png);
+  background-size: 1000px 100px; /* Adjust size to fit footer */
+}
+
+.wave#wave1 {
+  z-index: 1;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 0;
+  opacity: 0.5;
+  bottom: 10px; /* Adjust position for layering */
+  animation: animateWave_02 4s linear infinite;
+}
+
+.wave#wave3 {
+  z-index: 1;
+  opacity: 0.2;
+  bottom: 15px; /* Adjust position for layering */
+  animation: animateWave 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 0;
+  opacity: 0.7;
+  bottom: 20px; /* Adjust position for layering */
+  animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animateWave_02 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+.footer {
+  position: relative; /* Required for z-index to work properly */
+  z-index: 2; /* Set a higher z-index for footer content */
+}
 
 
 /* Activities */
@@ -809,18 +894,26 @@ p.lead {
 .activities-box{
   display: inline-block;
   padding: 0.625rem;
-  
-  
 }
-.arrow-col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Image container styling */
+.col-md-12 {
+  padding: 2rem;
+  
+  transition: 0.8s ease, box-shadow 0.3s ease; 
 }
 
-.arrow-icon {
-  font-size: 2rem;
-  color: var(--button-bg);
+/* Image styles */
+.col-md-12 img {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Hover effect */
+.col-md-12 img:hover {
+  transition: 0.8s ease, box-shadow 0.3s ease; 
+  box-shadow: 0 4px 15px rgba(255,255, 255, 0.4);
+  transform: scale(1.025);
 }
 
 
