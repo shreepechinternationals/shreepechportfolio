@@ -918,4 +918,64 @@ p.lead {
 
 
 /* Scroll */
+/* Add this to your CSS file */
+
+body {
+  margin: 0;
+  /* overflow-x: hidden;  */
+}
+
+.firstContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-scroll {
+  display: flex; /* Use flexbox for horizontal layout */
+  height: 100vh; /* Full viewport height */
+  /* overflow: hidden; */
+}
+
+.panel {
+  flex: 0 0 100vw; /* Each section takes full viewport width */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  /* color: white; */
+}
+
+.blue {
+
+  background-color: #007bff;
+}
+
+.red {
+
+  background-color: #dc3545;
+}
+
+.orange {
+  background-color: #fd7e14;
+}
+
+.purple {
+
+  background-color: #6f42c1;
+}
+
+.lastContainer {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f0f0f0;
+}
+
+
 

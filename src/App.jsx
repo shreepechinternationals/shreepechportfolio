@@ -16,6 +16,7 @@ import WavyFooter from './WavyFooter';
 import Threejs from './Threejs';
 import LoadingScreen from './LoadingScreen';
 import DynamicScroll from './DynamicScroll';
+import Workflow from './Workflow';
 
 
 function App() {
@@ -83,9 +84,10 @@ function App() {
       <Header />
       <Services />
       <Members />
-      <OurCompany />
+      {/* <OurCompany /> */}
       <Clients />
-      <Activities />
+      {/* <Activities /> */}
+      <Workflow/>
       <Contact />
       <Faq />
       <WavyFooter/>
