@@ -70,3 +70,5 @@ const WavyFooter = () => {
 };
 
 export default WavyFooter;
+
+

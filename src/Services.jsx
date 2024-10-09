@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -31,7 +29,7 @@ function Services() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={fadeIn}
-          transition={{ duration: 1, delay: 0.1 }}
+          transition={{ duration: 1, delay: 0.05 }}  // Reduced delay
         >
           Our Services: Our Most Popular Solution
         </motion.header>
@@ -41,7 +39,7 @@ function Services() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={fadeIn}
-          transition={{ duration: 1.1, delay: 0.3 }}
+          transition={{ duration: 1.1, delay: 0.1 }}  // Reduced delay
         >
           Digitalize your business to reach your market.
           <br />
@@ -57,7 +55,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 0.4 }}
+              transition={{ duration: 1, delay: 0.2 }}  // Reduced delay
             >
               <img className="services-img" src="images/icons/wd.png" />
             </motion.div>
@@ -65,7 +63,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 0.6 }}
+              transition={{ duration: 1.2, delay: 0.3 }}  // Reduced delay
             >
               Web Development
             </motion.p>
@@ -76,7 +74,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 0.8 }}
+              transition={{ duration: 1, delay: 0.4 }}  // Reduced delay
             >
               <img className="services-img" src="images/icons/md.png" />
             </motion.div>
@@ -84,7 +82,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 1 }}
+              transition={{ duration: 1.2, delay: 0.5 }}  // Reduced delay
             >
               Mobile App Development
             </motion.p>
@@ -95,7 +93,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 1.2 }}
+              transition={{ duration: 1, delay: 0.6 }}  // Reduced delay
             >
               <img className="services-img" src="images/icons/dm.png" />
             </motion.div>
@@ -103,7 +101,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 1.4 }}
+              transition={{ duration: 1.2, delay: 0.7 }}  // Reduced delay
             >
               Digital Marketing
             </motion.p>
@@ -114,7 +112,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 1.6 }}
+              transition={{ duration: 1, delay: 0.8 }}  // Reduced delay
             >
               <img className="services-img" src="images/icons/ds.png" />
             </motion.div>
@@ -122,7 +120,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 1.8 }}
+              transition={{ duration: 1.2, delay: 0.9 }}  // Reduced delay
             >
               Data Science
             </motion.p>
@@ -136,7 +134,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 2.0 }}
+              transition={{ duration: 1, delay: 1.0 }}  // Reduced delay
             >
               <img className="services-img" src="images/icons/uiux.png" />
             </motion.div>
@@ -144,7 +142,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 2.2 }}
+              transition={{ duration: 1.2, delay: 1.1 }}  // Reduced delay
             >
               UI/UX Design
             </motion.p>
@@ -155,7 +153,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 2.4 }}
+              transition={{ duration: 1, delay: 1.2 }}  // Reduced delay
             >
               <img className="services-img" src="images/icons/seo.png" />
             </motion.div>
@@ -163,7 +161,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1.2, delay: 2.6 }}
+              transition={{ duration: 1.2, delay: 1.3 }}  // Reduced delay
             >
               SEO
             </motion.p>
@@ -174,7 +172,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 2.8 }}
+              transition={{ duration: 1, delay: 1.4 }}  // Reduced delay
             >
               <img className="services-img" src="images/icons/cw.png" />
             </motion.div>
@@ -182,7 +180,7 @@ function Services() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={fadeIn}
-              transition={{ duration: 1, delay: 3 }}
+              transition={{ duration: 1, delay: 1.5 }}  // Reduced delay
             >
               Content Writing
             </motion.p>
@@ -194,4 +192,3 @@ function Services() {
 }
 
 export default Services;
-

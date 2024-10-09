@@ -33,11 +33,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--navbar-bg) ; /* Background color of the loading screen */
+  background-color: var(--navbar-bg) ; 
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Ensure it appears above other content */
+  z-index: 9999; 
 }
 
 .loader {
@@ -48,19 +48,19 @@ body {
 }
 
 .loading-logo {
-  width: 80px; /* Adjusted size of the logo */
-  height: auto; /* Maintain aspect ratio */
-  position: absolute; /* Position it at the center of the loader */
-  z-index: 1; /* Ensure logo appears above the loading circle */
+  width: 80px; 
+  height: auto; 
+  position: absolute; 
+  z-index: 1; 
 }
 
 .loading-circle {
-  width: 120px; /* Adjusted width of the loading circle */
-  height: 120px; /* Adjusted height of the loading circle */
-  border: 8px solid rgba(0, 0, 0, 0.2); /* Circle background color */
-  border-top: 8px solid #007bff; /* Color of the loading circle */
-  border-radius: 50%; /* Make it a circle */
-  animation: spin 1s linear infinite; /* Animation for the loading circle */
+  width: 120px;
+  height: 120px; 
+  border: 8px solid rgba(0, 0, 0, 0.2);
+  border-top: 8px solid #007bff; 
+  border-radius: 50%; 
+  animation: spin 1s linear infinite; 
 }
 
 @keyframes spin {
@@ -68,6 +68,49 @@ body {
   100% { transform: rotate(360deg); }
 }
 
+
+/* .loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(26,23,23); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+
+.loader-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  position: relative; 
+}
+
+
+.loading-logo {
+  width: 200px; 
+  height: auto;
+}
+
+.loading-text h2 {
+  font-size: 42px; 
+  color: white; 
+  font-weight: 400;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+
+}
+.loading-text h3 {
+  font-size: 22px; 
+  color: white; 
+  font-weight: 400;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+} */
 
 
 
@@ -190,7 +233,7 @@ body {
   /* margin-bottom: 2rem; */
   margin: auto;
   padding: 2rem 0;
-  /* overflow-x: hidden; */
+  overflow-x: hidden ;
   /* background-color: white; */
 }
 
@@ -299,7 +342,7 @@ p.lead {
   cursor: pointer;
   transition: 0.8s ease, box-shadow 0.8s ease;
 }
-.r4 {
+/* .r4 {
   
   width: 220px;
   height: 100px;
@@ -311,7 +354,7 @@ p.lead {
   transform: scale(1.05);
   cursor: pointer;
   transition: 0.8s ease, box-shadow 0.8s ease;
-}
+} */
 .r5 {
   
   width: 90px;
@@ -751,8 +794,8 @@ p.lead {
   padding: 0.125rem ;
 }
 .footer a {
-  /* color: var(--text-color); */
-  color: white;
+  color: var(--text-color);
+  /* color: white; */
   font-size: 1rem;
   text-decoration: none;
 }
@@ -936,7 +979,7 @@ body {
 .container-scroll {
   display: flex; /* Use flexbox for horizontal layout */
   height: 100vh; /* Full viewport height */
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .panel {
