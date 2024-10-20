@@ -222,7 +222,7 @@ function Contact() {
     // Send form data to EmailJS
     emailjs
       .send(
-        "service_hm1zxve",  // Replace with your EmailJS service ID
+        "service_j67jkes",  // Replace with your EmailJS service ID
         "template_b7roi7b",  // Replace with your EmailJS template ID
         templateParams,
         "X5VO48dQVvMyIuPKp"       // Replace with your EmailJS user ID
@@ -255,7 +255,56 @@ function Contact() {
               Understanding your problem is the first step to creating a viable solution for you.
             </p>
             <p className="lead">Connect with us on:</p>
-            {/* Add social icons */}
+            <div className="container">
+              <div className="social-icons d-flex">
+                <a href="#" className="instagram" aria-label="Instagram">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/instagram.webp"
+                      alt="Instagram"
+                    />
+                  </div>
+                </a>
+                <a href="#" className="facebook" aria-label="Facebook">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/facebook.png"
+                      alt="Facebook"
+                    />
+                  </div>
+                </a>
+                <a href="#" className="linkedin" aria-label="LinkedIn">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/linkedin.png"
+                      alt="LinkedIn"
+                    />
+                  </div>
+                </a>
+                <a href="#" className="twitter" aria-label="Twitter">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/x.png"
+                      alt="Twitter"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p className="lead" id='contact-details'>
+              Or,
+               <br />
+               Direct Call: +977 9802318496, +977 9861352004
+             </p>
+             <p className="lead" id='contact-details'>
+               Conversing Time:
+               <br />
+               Monday - Friday, 08:00 AM - 5:00 PM
+             </p>
           </div>
           <div className="col-md-6 d-md-block">
             <p className="lead" id="contact-details-reach">Reach us via Email:</p>
@@ -328,7 +377,7 @@ function Contact() {
                   Send Mail <i className="fas fa-paper-plane" />
                 </button>
                 {submitted && (
-                  <p className="lead text-success mt-2">
+                  <p className="lead text-success">
                     Your message has been sent! We'll get back to you shortly.
                   </p>
                 )}
