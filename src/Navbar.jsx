@@ -34,12 +34,12 @@ function Navbar() {
           {isDarkMode ? (
           <>
           <i className="fa-solid fa-sun"/>
-          {/* Light Mode */}
+          
           </> 
           ):(
             <> 
             <i className="fa-solid fa-moon"></i>
-            {/* Dark Mode */}
+            
             </>
         )}
         </button>

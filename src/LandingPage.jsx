@@ -32,9 +32,9 @@ function Header() {
   return (
     <>
       
-
-      <div className="landing-page">
       <Navbar/>
+      <div className="landing-page">
+      
         <div className="container-fluid d-flex align-items-center" id="hero">
           <div className="row">
             <div className="col-md-6 d-flex flex-column">
@@ -73,7 +73,7 @@ function Header() {
               </div>
             </div>
             <div className="col-md-6 position-relative d-none d-md-block">
-              {/* Floating rectangles */}
+              
               {rectangleAnimations.map((animation, index) => (
                 <animated.div key={index} className={`rectangle r${index + 1}`} style={animation} />
               ))}
