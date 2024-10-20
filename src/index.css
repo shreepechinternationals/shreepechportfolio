@@ -215,7 +215,7 @@ body {
 /* CSS for first page */
 .landing-page{
   /* padding: 20px; */
-  height: 100vh;
+  height: 100%;
   display: flex;   
   flex-direction: column;               
   justify-content: center;        
@@ -224,14 +224,14 @@ body {
   text-align: left;             /* Center text alignment */
   /* padding: 20px; */
   position: relative; 
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: var(--navbar-bg);
 }
 #hero{
   
   /* height: 100vh; */
   width: 80%;
-  
+ margin: 6rem;
   /* overflow: hidden ; */
   /* background-color: white; */
 }
