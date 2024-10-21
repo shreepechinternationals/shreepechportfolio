@@ -11,6 +11,7 @@ function Contact() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,7 +23,11 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    if (!formData.firstName || !formData.lastName || !formData.email || !formData.query || !formData.phoneNumber) {
+      setErrorMessage("Please fill out all required fields.");
+      return;
+    }
+    setErrorMessage("");
     const templateParams = {
       firstName: formData.firstName,
       lastName: formData.lastName,
@@ -137,7 +142,7 @@ function Contact() {
                       value={formData.firstName}
                       onChange={handleChange}
                       placeholder="First Name "
-                      required
+                      
                     />
                   </div>
                   <div className="col-md-6">
@@ -151,7 +156,7 @@ function Contact() {
                       value={formData.lastName}
                       onChange={handleChange}
                       placeholder="Last Name"
-                      required
+                      
                     />
                   </div>
                 </div>
@@ -167,7 +172,7 @@ function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="Email"
-                      required
+                      
                     />
                   </div>
                 </div>
@@ -181,7 +186,7 @@ function Contact() {
                       name="query"
                       value={formData.query}
                       onChange={handleChange}
-                      required
+                      
                     >
                       <option value="">Select Service of Query</option>
                       <option value="Web Development">Web Development</option>
@@ -206,7 +211,7 @@ function Contact() {
                       value={formData.phoneNumber}
                       onChange={handleChange}
                       placeholder="Phone Number"
-                      required
+                      
                     />
                   </div>
                 </div>
@@ -232,10 +237,13 @@ function Contact() {
                   Send Mail <i className="fas fa-paper-plane" />
                 </button>
                 {submitted && (
-                  <p className="lead text-success">
-                    Your message has been sent! We'll get back to you shortly.
-                  </p>
-                )}
+                    <p className="lead text-success">
+                      Your message has been sent! We'll get back to you shortly.
+                    </p>
+                  )}
+                  {errorMessage && (
+                    <p className="lead text-danger">{errorMessage}</p>
+                  )}
                 <p className="lead" id="reach-us">
                   *Our Team will respond to your mail shortly after the mail has
                   been received.
