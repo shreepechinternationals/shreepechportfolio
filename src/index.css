@@ -1015,8 +1015,12 @@ body {
 .container-scroll {
   display: flex;
   overflow-x: hidden;
+  background-color: whitesmoke;
   height: 100vh; /* Full viewport height */
   width: 100vw;  /* Full viewport width */
+  border: 5px solid whitesmoke; /* Adds a solid black border around the container */
+  box-sizing: border-box; /* Ensure the border is included in the width calculation */
+  padding: 0.625rem;
 }
 
 
@@ -1029,7 +1033,7 @@ body {
 
 .panel img {
   overflow-x: hidden;
-  border: 2px solid #000; /* Comic style border */
+  border: 2px solid whitesmoke; /* Comic style border */
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Shadow effect */
   object-fit: cover;
   position: absolute;
