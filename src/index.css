@@ -959,11 +959,11 @@ p.lead {
 
 
 /* Scroll */
-/* Add this to your CSS file */
+/* Workflow */
 
 body {
   margin: 0;
-  /* overflow-x: hidden;  */
+  overflow-x: hidden; 
 }
 
 .firstContainer {
@@ -980,34 +980,171 @@ body {
   overflow: hidden;
 }
 
-.panel {
-  flex: 0 0 100vw; /* Each section takes full viewport width */
+/* .panel {
+  flex: 0 0 100vw; 
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  /* color: white; */
+  
+} */
+
+.container-scroll {
+  display: flex;
+  overflow-x: hidden;
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
 }
 
-.blue {
 
-  background-color: #007bff;
+.panel {
+  flex: 0 0 100%;
+  position: relative;
+  padding: 0; /* Remove padding */
+  box-sizing: border-box;
 }
 
-.red {
-
-  background-color: #dc3545;
+.panel img {
+  overflow-x: hidden;
+  border: 2px solid #000; /* Comic style border */
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  object-fit: cover;
+  position: absolute;
+  margin: 0; /* Remove margins */
+  transform: rotate(0deg); /* Default rotation */
 }
 
-.orange {
-  background-color: #fd7e14;
+/* --- First Section (red) --- */
+.panel.red {
+  background-color: #ff6347;
+  padding: 0; /* No padding to avoid gaps */
 }
 
-.purple {
-
-  background-color: #6f42c1;
+.panel.red img:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 30%;   
+  height: 50%;
+  /* transform: skew(-5deg);  */
 }
+
+.panel.red img:nth-child(2) {
+  top: 0;
+  left: 30%;
+  width: 70%;
+  height: 50%;
+  /* transform: skew(3deg);  */
+}
+
+.panel.red img:nth-child(3) {
+  top: 50%;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  /* transform: skew(-3deg);  */
+}
+
+.panel.red img:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  height: 50%;
+  /* transform: skew(-3deg);  */
+}
+
+.panel.red img:nth-child(5) {
+  top: 50%;
+  left: 75%;
+  width: 25%;
+  height: 50%;
+  /* transform: skew(3deg);  */
+}
+
+/* --- Second Section (orange) --- */
+.panel.orange {
+  background-color: #ffa500;
+  padding: 0;
+}
+
+.panel.orange img:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 50%;
+  /* transform: skew(-5deg);  */
+}
+
+.panel.orange img:nth-child(2) {
+  top: 0;
+  left: 45%;
+  width: 55%;
+  height: 50%;
+  /* transform: skew(3deg); */
+}
+.panel.orange img:nth-child(3) {
+  top: 50%;
+  left: 0;
+  width: 35%;
+  height: 50%;
+  /* transform: skew(-5deg);  */
+}
+
+.panel.orange img:nth-child(4) {
+  top: 50%;
+  left: 35%;
+  width: 65%;
+  height: 50%;
+  /* transform: skew(5deg);  */
+}
+
+/* --- Third Section (purple) --- */
+.panel.purple {
+  background-color: #800080;
+  padding: 0;
+}
+
+.panel.purple img:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 50%;
+  /* transform: skew(-4deg);  */
+}
+
+.panel.purple img:nth-child(2) {
+  top: 0;
+  left: 45%;
+  width: 55%;
+  height: 50%;
+  /* transform: skew(4deg);  */
+}
+
+.panel.purple img:nth-child(3) {
+  top: 50%;
+  left: 0;
+  width: 30%;
+  height: 50%;
+  /* transform: skew(-4deg);  */
+}
+
+.panel.purple img:nth-child(4) {
+  top: 50%;
+  left: 30%;
+  width: 40%;
+  height: 50%;
+  /* transform: skew(4deg);  */
+}
+
+.panel.purple img:nth-child(5) {
+  top: 50%;
+  left: 70%;
+  width: 30%;
+  height: 50%;
+  /* transform: skew(-4deg);  */
+}
+
+
 
 /* .lastContainer {
  
