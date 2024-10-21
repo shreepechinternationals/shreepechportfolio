@@ -622,6 +622,25 @@ p.lead {
   padding: 0 0.625rem;
   margin: 0.625rem;
 }
+/* Add this CSS to your styles */
+.select-dropdown {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  outline: none; /* Remove the default outline */
+}
+
+.select-dropdown:focus {
+  background-color: #f8f9fa; /* Light background when focused */
+  border-color: #80bdff; /* Change border color on focus */
+}
+
+.select-dropdown:hover {
+  background-color: #e9ecef; /* Slightly darker on hover */
+}
+
 
 /* icons */
 .social-icons a {
