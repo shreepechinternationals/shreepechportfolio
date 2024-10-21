@@ -124,7 +124,7 @@ function Contact() {
               Monday - Friday, 08:00 AM - 5:00 PM
             </p>
           </div>
-          <div className="col-md-6 d-md-block">
+          <div className="col-md-6 d-md-block" id="contact-us-contents">
             <p className="lead" id="contact-details-reach">
               Reach us via Email:
             </p>
@@ -237,12 +237,12 @@ function Contact() {
                   Send Mail <i className="fas fa-paper-plane" />
                 </button>
                 {submitted && (
-                    <p className="lead text-success">
+                    <p className="lead text-success ">
                       Your message has been sent! We'll get back to you shortly.
                     </p>
                   )}
                   {errorMessage && (
-                    <p className="lead text-danger">{errorMessage}</p>
+                    <p className="lead text-danger ">{errorMessage}</p>
                   )}
                 <p className="lead" id="reach-us">
                   *Our Team will respond to your mail shortly after the mail has

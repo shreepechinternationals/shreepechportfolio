@@ -617,10 +617,12 @@ p.lead {
 #contact-details{
   font-size: 1rem;
 }
+
 #contact-details-reach{
   font-size: 1rem;
-  padding: 0 0.625rem;
-  margin: 0.625rem;
+  margin: 0;
+  padding: 0.625rem;
+  
 }
 /* Add this CSS to your styles */
 .select-dropdown {
@@ -681,11 +683,12 @@ p.lead {
   padding: 0;
 }
 #form-container .col-md-12{
-  padding: 1.2rem;
+  padding: 0.625rem;
 }
 #form-container .col-md-6{
-  padding: 1.2rem;
+  padding: 0.625rem;
 }
+
 
 /* FAQ's */
 .faq-box{
