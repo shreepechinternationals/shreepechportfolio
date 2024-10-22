@@ -1,0 +1,78 @@
+@keyframes rotate-in {
+    to {
+      transform: rotateZ(0.5turn);
+    }
+  }
+  
+  @keyframes fade-out {
+    to {
+      opacity: 0;
+    }
+  }
+  
+  #refresh {
+    font-family: 'Space Grotesk', sans-serif;
+    block-size: 150px; /* Height of the refresh area */
+    inline-size: 100%; /* Full width */
+    background: hsl(0 0% 50% / 10%); /* Background with slight transparency */
+    display: grid;
+    gap: 1ch;
+    align-content: center;
+    justify-items: center;
+    position: relative; /* Relative to affect layout */
+    top: 0; /* Default position */
+    z-index: 1000;
+    transform: translateY(-150px); /* Hidden off the screen initially */
+    transition: transform 0.3s ease; /* Smooth transition for showing/hiding */
+  }
+  
+  #refresh.show {
+    transform: translateY(0); /* Show the refresh indicator */
+  }
+  
+  #refresh > svg {
+    animation: linear rotate-in;
+    --size: 4ch;
+    fill: none;
+    stroke: currentColor;
+    inline-size: var(--size);
+    block-size: var(--size);
+  }
+  
+  #refresh > span {
+    animation: linear fade-out;
+  }
+  
+  #refresh::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    block-size: 5px;
+    background: deeppink; /* Loading indicator color */
+    opacity: 0;
+  }
+  
+  #refresh[loading-state="loading"]::after {
+    animation: indeterminate-loading 1s ease infinite; /* Indeterminate loading animation */
+  }
+  
+  @keyframes indeterminate-loading {
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .content-wrapper {
+    transition: padding-top 0.3s ease; /* Smooth transition for padding */
+  }
+  
+  body.refresh-active .content-wrapper {
+    padding-top: 150px; /* Push content down by the height of the refresh bar */
+  }
+  

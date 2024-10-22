@@ -17,6 +17,7 @@ import Threejs from './Threejs';
 import LoadingScreen from './LoadingScreen';
 import DynamicScroll from './DynamicScroll';
 import Workflow from './Workflow';
+import PullToRefresh from './PullToRefresh';
 
 
 function App() {
@@ -81,6 +82,7 @@ function App() {
   return (
     <>
       <LoadingScreen/>
+      <PullToRefresh/>
       <Header />
       <Services />
       <Members />
