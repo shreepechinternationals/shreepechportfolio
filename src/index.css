@@ -215,7 +215,7 @@ body {
 /* CSS for first page */
 .landing-page{
   /* padding: 20px; */
-  height: 100%;
+  height: 100vh;
   display: flex;   
   flex-direction: column;               
   justify-content: center;        

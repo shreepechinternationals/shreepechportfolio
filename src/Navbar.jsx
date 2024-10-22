@@ -25,7 +25,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-left">
         <div className="logo-box">
-        <img src="public/images/logo/SHREEPECH.png" alt="Company Logo" className="company-logo" />
+        <img src="/images/logo/SHREEPECH.png" alt="Company Logo" className="company-logo" />
         </div>
         <h1 className="company-title">Shreepech International</h1>
       </div>
