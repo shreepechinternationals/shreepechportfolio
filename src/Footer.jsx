@@ -17,7 +17,7 @@ function Footer() {
             <div className="row">
               {/* Logo Column */}
               <div className="col-md-3 footer-logo text-start">
-                <img src="images/logo/shreepech.png" alt="Logo" />
+                <img src="public/images/logo/shreepech.png" alt="Logo" />
               </div>
               {/* Other Columns */}
               <div className="col-md-9">

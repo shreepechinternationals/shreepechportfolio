@@ -91,28 +91,28 @@ function Workflow() {
         <div className="container-scroll">
           {/* First Section with 5 comic-style images */}
           <section className="panel red">
-            <img src="images/comic/1.png" alt="Comic Panel 1" />
-            <img src="images/comic/2.png" alt="Comic Panel 2" />
-            <img src="images/comic/3.png" alt="Comic Panel 3" />
-            <img src="images/comic/4.png" alt="Comic Panel 4" />
-            <img src="images/comic/5.png" alt="Comic Panel 5" />
+            <img src="/images/comic/1.png" alt="Comic Panel 1" />
+            <img src="/images/comic/2.png" alt="Comic Panel 2" />
+            <img src="/images/comic/3.png" alt="Comic Panel 3" />
+            <img src="/images/comic/4.png" alt="Comic Panel 4" />
+            <img src="/images/comic/5.png" alt="Comic Panel 5" />
           </section>
 
           {/* Second Section with 4 comic-style images */}
           <section className="panel orange">
-            <img src="images/comic/6.png" alt="Comic Panel 6" />
-            <img src="images/comic/7.png" alt="Comic Panel 7" />
-            <img src="images/comic/8.png" alt="Comic Panel 8" />
-            <img src="images/comic/9.png" alt="Comic Panel 9" />
+            <img src="/images/comic/6.png" alt="Comic Panel 6" />
+            <img src="/images/comic/7.png" alt="Comic Panel 7" />
+            <img src="/images/comic/8.png" alt="Comic Panel 8" />
+            <img src="/images/comic/9.png" alt="Comic Panel 9" />
           </section>
 
           {/* Third Section with 5 comic-style images */}
           <section className="panel purple">
-            <img src="images/comic/10.png" alt="Comic Panel 10" />
-            <img src="images/comic/11.png" alt="Comic Panel 11" />
-            <img src="images/comic/12.png" alt="Comic Panel 12" />
-            <img src="images/comic/13.png" alt="Comic Panel 13" />
-            <img src="images/comic/14.png" alt="Comic Panel 14" />
+            <img src="/images/comic/10.png" alt="Comic Panel 10" />
+            <img src="/images/comic/11.png" alt="Comic Panel 11" />
+            <img src="/images/comic/12.png" alt="Comic Panel 12" />
+            <img src="/images/comic/13.png" alt="Comic Panel 13" />
+            <img src="/images/comic/14.png" alt="Comic Panel 14" />
           </section>
         </div>
       </div>

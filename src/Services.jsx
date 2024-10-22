@@ -57,7 +57,7 @@ function Services() {
               variants={fadeIn}
               transition={{ duration: 1, delay: 0.2 }}  // Reduced delay
             >
-              <img className="services-img" src="images/icons/wd.png" />
+              <img className="services-img" src="/images/icons/wd.png" />
             </motion.div>
             <motion.p
               initial="hidden"
@@ -76,7 +76,7 @@ function Services() {
               variants={fadeIn}
               transition={{ duration: 1, delay: 0.4 }}  // Reduced delay
             >
-              <img className="services-img" src="images/icons/md.png" />
+              <img className="services-img" src="/images/icons/md.png" />
             </motion.div>
             <motion.p
               initial="hidden"
@@ -95,7 +95,7 @@ function Services() {
               variants={fadeIn}
               transition={{ duration: 1, delay: 0.6 }}  // Reduced delay
             >
-              <img className="services-img" src="images/icons/dm.png" />
+              <img className="services-img" src="/images/icons/dm.png" />
             </motion.div>
             <motion.p
               initial="hidden"
@@ -114,7 +114,7 @@ function Services() {
               variants={fadeIn}
               transition={{ duration: 1, delay: 0.8 }}  // Reduced delay
             >
-              <img className="services-img" src="images/icons/ds.png" />
+              <img className="services-img" src="/images/icons/ds.png" />
             </motion.div>
             <motion.p
               initial="hidden"
@@ -136,7 +136,7 @@ function Services() {
               variants={fadeIn}
               transition={{ duration: 1, delay: 1.0 }}  // Reduced delay
             >
-              <img className="services-img" src="images/icons/uiux.png" />
+              <img className="services-img" src="/images/icons/uiux.png" />
             </motion.div>
             <motion.p
               initial="hidden"
@@ -155,7 +155,7 @@ function Services() {
               variants={fadeIn}
               transition={{ duration: 1, delay: 1.2 }}  // Reduced delay
             >
-              <img className="services-img" src="images/icons/seo.png" />
+              <img className="services-img" src="/images/icons/seo.png" />
             </motion.div>
             <motion.p
               initial="hidden"
@@ -174,7 +174,7 @@ function Services() {
               variants={fadeIn}
               transition={{ duration: 1, delay: 1.4 }}  // Reduced delay
             >
-              <img className="services-img" src="images/icons/cw.png" />
+              <img className="services-img" src="/images/icons/cw.png" />
             </motion.div>
             <motion.p
               initial="hidden"
