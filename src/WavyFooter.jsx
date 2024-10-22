@@ -52,7 +52,7 @@ const WavyFooter = () => {
                       <ul className="list-unstyled">
                         <li><a href="https://www.instagram.com/shreepech.international?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank'>Instagram</a></li>
                         <li><a href="https://www.facebook.com/people/Shreepech-International/61567752983133/" target='_blank'>Facebook</a></li>
-                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/company/shreepech-international/" target='_blank'>LinkedIn</a></li>
                         <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=shreepechinternationals@gmail.com&su=Subject%20Here&body=Body%20text%20here" target='_blank'>E-Mail</a></li>
                       </ul>
                     </div>
