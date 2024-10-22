@@ -75,16 +75,7 @@ function Contact() {
             <p className="lead">Connect with us on:</p>
             <div className="container">
               <div className="social-icons d-flex">
-                <a href="#" className="instagram" aria-label="Instagram">
-                  <div className="contact-box-icon">
-                    <img
-                      className="contact-img"
-                      src="images/icons/instagram.webp"
-                      alt="Instagram"
-                    />
-                  </div>
-                </a>
-                <a href="#" className="facebook" aria-label="Facebook">
+              <a href="#" className="facebook" aria-label="Facebook">
                   <div className="contact-box-icon">
                     <img
                       className="contact-img"
@@ -93,6 +84,8 @@ function Contact() {
                     />
                   </div>
                 </a>
+                
+                
                 <a href="#" className="linkedin" aria-label="LinkedIn">
                   <div className="contact-box-icon">
                     <img
@@ -102,12 +95,21 @@ function Contact() {
                     />
                   </div>
                 </a>
-                <a href="#" className="twitter" aria-label="Twitter">
+                {/* <a href="#" className="twitter" aria-label="Twitter">
                   <div className="contact-box-icon">
                     <img
                       className="contact-img"
                       src="images/icons/x.png"
                       alt="Twitter"
+                    />
+                  </div>
+                </a> */}
+                <a href="#" className="instagram" aria-label="Instagram">
+                  <div className="contact-box-icon">
+                    <img
+                      className="contact-img"
+                      src="images/icons/instagram.webp"
+                      alt="Instagram"
                     />
                   </div>
                 </a>

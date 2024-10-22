@@ -231,9 +231,9 @@ body {
   height: 100vh;
   display: flex;   
   flex-direction: column;               
-  justify-content: center;        
-  align-items: center;            
-  /* min-height: 100vh;              */
+  /* justify-content: center;        
+  align-items: center;             */
+  min-height: 100vh;             
   text-align: left;             /* Center text alignment */
   /* padding: 20px; */
   position: relative; 
@@ -244,7 +244,7 @@ body {
   
   /* height: 100vh; */
   width: 80%;
- margin-bottom: 6rem;
+ margin-top: 3rem;
   /* overflow: hidden ; */
   /* background-color: white; */
 }
@@ -660,7 +660,7 @@ p.lead {
 /* icons */
 .social-icons a {
   color: white;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
   display: inline-block;
   width: 10%;
   line-height: 40px;
