@@ -156,12 +156,7 @@ body {
 .logo-box img{
   background-image: rgba(255,255,255,0.5);
 }
-.company-logo {
-  padding: 0.125rem;
-  height: 80px; /* Adjust logo size */
 
-  margin: auto; 
-}
 
 .company-title {
   font-size: 1.5rem;
@@ -185,12 +180,13 @@ body {
  padding: 0.625rem;
  font-size: 1.25rem;
 }
+#light-dark{
+  font-size: 2rem;
+}
 .fa-sun{
   color: #FFD43B;
 }
-.toggle-button:hover {
-  background-color: var(--button-hover-bg);
-}
+
 
 /* Light mode theme */
 .light-mode {
@@ -211,6 +207,23 @@ body {
   background-color:  #1A1717;
   color: #ECE9E9;
 }
+
+/* .company-logo {
+  width: 40px;
+  height: 40px;
+} */
+
+.company-title {
+  font-size: 1.2rem;
+  white-space: nowrap; 
+}
+
+@media (max-width: 576px) {
+  .company-title {
+    font-size: 1rem; /* Adjust title size for mobile */
+  }
+}
+
 
 /* CSS for first page */
 .landing-page{

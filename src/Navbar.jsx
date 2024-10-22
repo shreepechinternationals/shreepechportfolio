@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// You can style your navbar and button here
 
 function Navbar() {
   // State to track theme mode (light/dark)
@@ -22,26 +21,27 @@ function Navbar() {
   }, [isDarkMode]);
 
   return (
-    <nav className="navbar">
-      <div className="navbar-left">
-        <div className="logo-box">
-        <img src="/images/logo/shreepech.png" alt="Company Logo" className="company-logo" />
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <div className="d-flex align-items-center">
+          <img
+            src="/images/logo/logo-sp.png"
+            alt="Company Logo"
+            className="company-logo"
+            style={{ width: '80px', height: 'auto'}}
+          />
+          <h1 className="company-title mb-0">Shreepech International</h1>
         </div>
-        <h1 className="company-title">Shreepech International</h1>
-      </div>
-      <div className="navbar-right">
-        <button onClick={toggleDarkMode} className="toggle-button">
+
+        <button
+          className="btn btn-outline ms-auto" id="light-dark"
+          onClick={toggleDarkMode}
+        >
           {isDarkMode ? (
-          <>
-          <i className="fa-solid fa-sun"/>
-          
-          </> 
-          ):(
-            <> 
+            <i className="fa-solid fa-sun" />
+          ) : (
             <i className="fa-solid fa-moon"></i>
-            
-            </>
-        )}
+          )}
         </button>
       </div>
     </nav>
