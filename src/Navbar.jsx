@@ -30,7 +30,7 @@ function Navbar() {
             className="company-logo"
             style={{ width: '80px', height: 'auto'}}
           />
-          <h1 className="company-title mb-0">Shreepech International</h1>
+          <h1 className="company-title mb-0" id="company-title">Shreepech International</h1>
         </div>
 
         <button
