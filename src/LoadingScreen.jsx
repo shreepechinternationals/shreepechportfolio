@@ -18,7 +18,7 @@ const LoadingScreen = () => {
       <div className="loading-screen">
         <div className="loader">
           <div className="loading-circle"></div>
-          <img src="images/logo/shreepech.png" alt="Loading..." className="loading-logo" />
+          <img src="/images/logo/shreepech.png" alt="Loading..." className="loading-logo" />
         </div>
       </div>
     );
