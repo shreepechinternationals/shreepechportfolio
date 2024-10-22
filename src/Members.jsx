@@ -36,7 +36,7 @@ function Members() {
             <div className="row">
                 <div className="col">
                 <div className="img-box-career">
-                            <img className="team-img" alt= "Saran Adhikari" src="https://media.licdn.com/dms/image/v2/D5603AQH6MKJmRfpmkA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726194465644?e=1735171200&v=beta&t=UQDgA3_vCMUpzwensW4VvLlEgqOKXZsoHZXMlqHoFbU"/>
+                            <img className="team-img" alt= "Saran Adhikari" src="https://media.licdn.com/dms/image/v2/D5603AQEyKrQ0XaRTTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729598411884?e=1735171200&v=beta&t=bq3nyIP5Gxqc3Qg44TDy9jSVk214QJZwVN8oGZHm16k"/>
                         </div>
                     <h2 className='name'>Saran Adhikari</h2>
                     <h3 className='position'>Position</h3>
