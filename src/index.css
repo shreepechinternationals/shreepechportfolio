@@ -220,7 +220,7 @@ body {
 
 @media (max-width: 576px) {
   .company-title {
-    font-size: 1rem; /* Adjust title size for mobile */
+    font-size: 0.625rem; /* Adjust title size for mobile */
   }
 }
 
@@ -233,7 +233,7 @@ body {
   flex-direction: column;               
   /* justify-content: center;        
   align-items: center;             */
-  min-height: 100vh;             
+  /* min-height: 100vh;              */
   text-align: left;             /* Center text alignment */
   /* padding: 20px; */
   position: relative; 
