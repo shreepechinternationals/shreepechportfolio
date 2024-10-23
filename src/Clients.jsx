@@ -61,7 +61,7 @@ function Clients() {
     "fireempire.png",
     "it-concerns.png",
     "NPADSN.png",
-    "ysbuilders.png",
+    "ysbuilders-logo.jpg",
     "SG.png",
     "maxholdings.png",
   ];
