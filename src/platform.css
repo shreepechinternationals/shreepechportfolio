@@ -10,9 +10,10 @@
   }
   
   .platform-title {
+    font-family: 'Space Grotesk',sans-serif;
     color: #1a1717;
     font-size: 2.5em;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 20px;
   }
   

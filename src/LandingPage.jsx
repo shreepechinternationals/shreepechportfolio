@@ -64,43 +64,7 @@ function LandingPage() {
             </div>
 
             {/* Ensure carousel is visible on all screen sizes */}
-            <div className="col-md-6 position-relative">
-              <Carousel controls={false} indicators={false} interval={3000} pause={false} className="circle-carousel">
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?t=st=1729659995~exp=1729663595~hmac=f1ac6e966bd4d2f6fdc43b8f0489b585f84ea2b210b26fd664bf8a5b1bda98b0&w=900"
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>First Slide Title</h3>
-                    <p>Description for the first slide.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?t=st=1729659995~exp=1729663595~hmac=f1ac6e966bd4d2f6fdc43b8f0489b585f84ea2b210b26fd664bf8a5b1bda98b0&w=900"
-                    alt="Second slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>Second Slide Title</h3>
-                    <p>Description for the second slide.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?t=st=1729659995~exp=1729663595~hmac=f1ac6e966bd4d2f6fdc43b8f0489b585f84ea2b210b26fd664bf8a5b1bda98b0&w=900"
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>Third Slide Title</h3>
-                    <p>Description for the third slide.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
-            </div>
+            
           </div>
         </div>
       </div>
