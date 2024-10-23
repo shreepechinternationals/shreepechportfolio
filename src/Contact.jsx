@@ -228,7 +228,7 @@ function Contact() {
                       name="message"
                       value={formData.message || ""}
                       onChange={handleChange}
-                      placeholder="Your Message"
+                      placeholder="Please brief your requirements in short detail"
                       rows="4"
                     ></textarea>
                   </div>

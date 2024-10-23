@@ -309,7 +309,7 @@ p.lead {
 .circle-carousel img {
   max-width: 100%;
   width: 100%;  /* Ensure the image fills the carousel */
-  height: auto;
+  height: 500px;
   object-fit: cover; /* Ensure the image fits without stretching */
 }
 
@@ -729,8 +729,10 @@ p.lead {
 .faq-box{
   width: 100%;
   background-color: #ECE9E9;
+  justify-content: space-between;
 }
 #faq{
+  
   width: 100%;
   color: #1A1717;
   font-family: "Space Grotesk", sans-serif ;
@@ -738,6 +740,7 @@ p.lead {
 }
 
 #faq-content{
+  
   color: #1A1717;
   background-color: #ECE9E9;
   font-family: "Space Grotesk", sans-serif ;
@@ -788,52 +791,39 @@ p.lead {
 
 /* Clients */
 
-#clients{
-  color: #1A1717;
-  background-color: #ECE9E9;
-  font-family: "Space Grotesk", sans-serif ;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 1.2rem;
-}
-#clients-title{
-  color: #45B7CF;
-  margin: auto;
-  text-align: center;
-  align-items: center;
-  font-size: 1.25rem;
-  font-family: "Space Grotesk", sans-serif ;
-}
-.fa-angle-left{
-  cursor: pointer;
-}
-.fa-angle-right{
-  cursor: pointer;
-}
 #clients {
   position: relative;
+  overflow: hidden;
 }
 
-#clients .row {
-  position: relative;
+.marquee-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-behavior: smooth;
 }
 
-.fa-angle-left,
-.fa-angle-right {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
+.marquee-content {
+  display: flex;
+  align-items: center;
 }
 
-.fa-angle-left {
-  left: 10px; /* Adjust as needed */
+.client-logo {
+  flex: 0 0 auto;
+  padding: 0 20px;
 }
 
-.fa-angle-right {
-  right: 10px; /* Adjust as needed */
+.client-logo img {
+  width: 120px; /* Adjust image size as needed */
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* White color for dark background */
 }
+
+.marquee-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
 
 /* Normal Footer */
 

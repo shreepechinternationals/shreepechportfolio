@@ -19,6 +19,7 @@ import DynamicScroll from './DynamicScroll';
 import Workflow from './Workflow';
 import PullToRefresh from './PullToRefresh';
 import LandingPage from './LandingPage';
+import Platform from './Platform';
 
 
 function App() {
@@ -31,11 +32,14 @@ function App() {
       <LandingPage/>
       <Services />
       <Members />
+      <Platform/>
       {/* <OurCompany /> */}
       <Clients />
       {/* <Activities /> */}
       <Workflow/>
+      
       <Contact />
+      
       <Faq />
       <WavyFooter/>
       <BackToTopButton />

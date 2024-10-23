@@ -1,0 +1,53 @@
+.platform-main {
+    width: 100%;
+    background-color: #ECE9E9;
+    padding: 50px 20px;
+  }
+  
+  .platform-content {
+
+    text-align: center;
+  }
+  
+  .platform-title {
+    color: #1a1717;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .platform-desc {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    color: #666;
+  }
+  
+  .platform-icons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .platform-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    color: #1a1717;
+  }
+  
+  .platform-icon {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .platform-icons {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
