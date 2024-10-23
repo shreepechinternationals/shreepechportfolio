@@ -18,15 +18,17 @@ import LoadingScreen from './LoadingScreen';
 import DynamicScroll from './DynamicScroll';
 import Workflow from './Workflow';
 import PullToRefresh from './PullToRefresh';
+import LandingPage from './LandingPage';
 
 
 function App() {
 
   return (
     <>
+    
       <LoadingScreen/>
       <PullToRefresh/>
-      <Header />
+      <LandingPage/>
       <Services />
       <Members />
       {/* <OurCompany /> */}

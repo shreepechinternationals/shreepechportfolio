@@ -224,11 +224,16 @@ body {
   }
 }
 
+/* Home */
+
 
 /* CSS for first page */
 .landing-page{
-  /* padding: 20px; */
-  height: 100vh;
+  /* width: 100%; */
+  /* margin: 3rem 0; */
+  padding: 8rem 0;
+  height: 700px;
+  /* height: 100vh; */
   display: flex;   
   flex-direction: column;               
   /* justify-content: center;        
@@ -241,10 +246,9 @@ body {
   background-color: var(--navbar-bg);
 }
 #hero{
-  
   /* height: 100vh; */
   width: 80%;
- margin-top: 3rem;
+ /* margin-top: 3rem; */
   /* overflow: hidden ; */
   /* background-color: white; */
 }
@@ -302,7 +306,17 @@ p.lead {
   
   
 }
-.rectangle{
+.circle-carousel img {
+  max-width: 100%;
+  width: 100%;  /* Ensure the image fills the carousel */
+  height: auto;
+  object-fit: cover; /* Ensure the image fits without stretching */
+}
+
+
+
+
+/* .rectangle{
   object-fit: cover;
   position: absolute;
   background-color: #f4f4f4;
@@ -312,7 +326,7 @@ p.lead {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.8s ease, box-shadow 0.8s ease; /* Ensure smooth transition */
+  transition: transform 0.8s ease, box-shadow 0.8s ease; 
 }
 
 
@@ -352,7 +366,7 @@ p.lead {
   transform: scale(1.05);
   cursor: pointer;
   transition: 0.8s ease, box-shadow 0.8s ease;
-}
+} */
 /* .r4 {
   
   width: 220px;
@@ -366,7 +380,7 @@ p.lead {
   cursor: pointer;
   transition: 0.8s ease, box-shadow 0.8s ease;
 } */
-.r5 {
+/* .r5 {
   
   width: 90px;
   height: 140px;
@@ -402,15 +416,21 @@ p.lead {
   transform: scale(1.05);
   cursor: pointer;
   transition: 0.8s ease, box-shadow 0.8s ease;
-}
+} */
 
 
 
 
 /* Services */
+.services{
+  width: 100%;
+  background-color: #ECE9E9;
+  color: #1A1717;
+}
 
 #our-services{
   /* height: 100vh; */
+  
   font-family: "Space Grotesk", sans-serif ;
   justify-content: center;
   align-items: center;
@@ -425,7 +445,7 @@ p.lead {
   text-align: center;
   align-items: center;
   font-size: 2rem;
-  font-size: 600;
+  font-weight: 600;
 
 }
 #teams{
@@ -462,10 +482,10 @@ p.lead {
   cursor: pointer;
   transition: background-color 0.8s ease, box-shadow 0.3s ease;
   border: none;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   color: #ECE9E9;
   background-color: #333333;
-  box-shadow: 0 4px 15px rgba(255,255, 255, 0.4); 
+  box-shadow: 0 4px 15px rgba(255,255, 255, 0.9); 
   font-weight: bold;
 }
 #teams .col:hover .img-box-services img{
@@ -618,11 +638,13 @@ p.lead {
   margin: 0;
 }
 .contact-img{
-  width: 100%;
+  height: 50px;
+  width: 50px;
   padding: 0;
-  margin: 0 auto;
-  object-fit: cover;
+  margin: auto;
+  object-fit: contain;
 }
+
 #reach-us{
   font-size: small;
   color: #838383;
@@ -662,7 +684,7 @@ p.lead {
   color: white;
   /* border: 1px solid #333; */
   display: inline-block;
-  width: 10%;
+  /* width: 10%; */
   line-height: 40px;
   text-align: center;
   margin: 0 ;
@@ -827,8 +849,8 @@ p.lead {
   padding: 0.125rem ;
 }
 .footer a {
-  color: var(--text-color);
-  /* color: white; */
+  /* color: var(--text-color); */
+  color: white;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -868,6 +890,8 @@ p.lead {
 
 /* Ocean Wave Footer */
 #wavy-footer-base {
+  background-color: #1A1717;
+  color: #ECE9E9;
   display: flex;
   justify-content: center; /* Center footer content */
   align-items: flex-end;

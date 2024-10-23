@@ -75,10 +75,10 @@ function Contact() {
             <p className="lead">Connect with us on:</p>
             <div className="container">
               <div className="social-icons d-flex">
-              <a href="#" className="facebook" aria-label="Facebook">
+              <a href="https://www.facebook.com/people/Shreepech-International/61567752983133/" target='_blank' className="facebook" aria-label="Facebook">
                   <div className="contact-box-icon">
                     <img
-                      className="contact-img"
+                      className="contact-img" 
                       src="images/icons/facebook.png"
                       alt="Facebook"
                     />
@@ -86,7 +86,7 @@ function Contact() {
                 </a>
                 
                 
-                <a href="#" className="linkedin" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/company/shreepech-international/" target="_blank" className="linkedin" aria-label="LinkedIn">
                   <div className="contact-box-icon">
                     <img
                       className="contact-img"
@@ -104,7 +104,7 @@ function Contact() {
                     />
                   </div>
                 </a> */}
-                <a href="#" className="instagram" aria-label="Instagram">
+                <a href="https://www.instagram.com/shreepech.international/" target='_blank' className="instagram" aria-label="Instagram">
                   <div className="contact-box-icon">
                     <img
                       className="contact-img"

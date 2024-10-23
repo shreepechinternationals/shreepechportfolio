@@ -14,6 +14,7 @@ function Services() {
   };
 
   return (
+    <div className="services">
     <motion.div
       className="container-fluid"
       id="our-services"
@@ -23,6 +24,7 @@ function Services() {
       variants={fadeIn}
       transition={{ duration: 1 }}
     >
+      
       <div className="our-services">
         <motion.header
           id="services-title"
@@ -187,7 +189,9 @@ function Services() {
           </div>
         </div>
       </div>
+     
     </motion.div>
+    </div>
   );
 }
 
