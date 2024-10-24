@@ -7,6 +7,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
+    padding: 0;
     
 }
 
@@ -88,7 +89,7 @@
 }
 
 /* Responsive Media Queries */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .section-title {
         font-size: 2rem;
     }
@@ -110,7 +111,7 @@
     .tech-card h5 {
         font-size: 1.1rem;
     }
-}
+} */
 
 /* Fade In Animation */
 @keyframes fadeIn {

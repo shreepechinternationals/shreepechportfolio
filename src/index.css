@@ -809,15 +809,15 @@ p.lead {
 
 .marquee-content {
   display: flex;
-  width: calc(100% * 2); /* Adjust for smooth transition */
+  /* width: calc(100% * 2);  */
 }
 
 .client-logo {
-  min-width: 25%; /* Each image takes up 25% of the container width */
+  /* min-width: 25%;  */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  padding: 0 10px; /* Add some padding between the images */
+  /* padding: 0 10px;  */
 }
 
 .client-image {

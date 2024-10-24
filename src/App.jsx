@@ -10,7 +10,6 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import BackToTopButton from './BackToTopButton';
 import Activities from './Activities';
-import OurCompany from './OurCompany';
 import Members from './Members';
 import WavyFooter from './WavyFooter';
 import Threejs from './Threejs';
@@ -36,7 +35,7 @@ function App() {
       <Members />
       <Platform/>
       <Technologies/>
-      {/* <OurCompany /> */}
+      
       
       {/* <Activities /> */}
       <Workflow/>
