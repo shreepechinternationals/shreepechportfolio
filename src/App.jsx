@@ -35,12 +35,14 @@ function App() {
       <Services />
       <Members />
       <Platform/>
+      <Technologies/>
       {/* <OurCompany /> */}
-      <Clients />
+      
       {/* <Activities /> */}
       <Workflow/>
-      <Technologies/>
+      <Clients />
       <Industries/>
+      
       <Contact />
       
       <Faq />

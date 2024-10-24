@@ -40,30 +40,30 @@ function Technologies() {
     
   ];
   const designTools = [
-    { name: 'Figma', image: 'path_to_image/magento.png' },
-    { name: 'Adobe Photoshop', image: 'path_to_image/adobe_cloud.png' },
-    { name: 'Adobe Illustrator', image: 'path_to_image/woocommerce.png' },
-    { name: 'Canva', image: 'path_to_image/woocommerce.png' },
+    { name: 'Figma', image: '/images/technology-img/design/figma.png' },
+    { name: 'Adobe Photoshop', image: '/images/technology-img/design/photoshop.png' },
+    { name: 'Adobe Illustrator', image: '/images/technology-img/design/illustrator.png' },
+    { name: 'Canva', image: '/images/technology-img/design/canva.png' },
      
     
   ];
   const cloud = [
-    { name: 'AWS', image: 'path_to_image/magento.png' },
-    { name: 'Microsoft Azure', image: 'path_to_image/adobe_cloud.png' },
-    { name: 'Docker', image: 'path_to_image/woocommerce.png' },
-    { name: 'Google Cloud', image: 'path_to_image/woocommerce.png' },
-    { name: 'CPanel', image: 'path_to_image/woocommerce.png' },
-    { name: 'Heroku', image: 'path_to_image/woocommerce.png' },
+    { name: 'AWS', image: '/images/technology-img/cloud/aws.png' },
+    { name: 'Microsoft Azure', image: '/images/technology-img/cloud/azure.png' },
+    { name: 'Docker', image: '/images/technology-img/cloud/docker.png' },
+    { name: 'Google Cloud', image: '/images/technology-img/cloud/googlecloud.png' },
+    { name: 'CPanel', image: '/images/technology-img/cloud/cpanel.png' },
+    { name: 'Heroku', image: '/images/technology-img/cloud/heroku.png' },
      
     
   ];
   const db = [
-    { name: 'MySQL', image: 'path_to_image/magento.png' },
-    { name: 'MongoDB', image: 'path_to_image/adobe_cloud.png' },
-    { name: 'Firebase', image: 'path_to_image/woocommerce.png' },
-    { name: 'SQlite', image: 'path_to_image/woocommerce.png' },
-    { name: 'MariaDB', image: 'path_to_image/woocommerce.png' },
-    { name: 'Microsoft SQL', image: 'path_to_image/woocommerce.png' },
+    { name: 'MySQL', image: '/images/technology-img/db/mysql.png' },
+    { name: 'MongoDB', image: '/images/technology-img/db/mongodb.png' },
+    { name: 'Firebase', image: '/images/technology-img/db/firebase.png' },
+    { name: 'SQlite', image: '/images/technology-img/db/sqlite.png' },
+    { name: 'MariaDB', image: '/images/technology-img/db/mariadb.png' },
+    { name: 'Microsoft SQL', image: '/images/technology-img/db/ms-sql.png' },
      
     
   ];
