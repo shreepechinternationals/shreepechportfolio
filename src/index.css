@@ -466,8 +466,8 @@ p.lead {
   padding: 2rem;
   font-family: "Space Grotesk", sans-serif ;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 iframe{
   margin: 0.625rem 0;
@@ -478,10 +478,10 @@ iframe:hover{
   box-shadow: 0 4px 15px rgba(255,255, 255, 0.4);
  
 }
-#contact-us-title{
+/* #contact-us-title{
   font-size: 2rem;
   font-family: "Space Grotesk", sans-serif ;
-}
+} */
 
 
 .img-box-contact{
