@@ -72,14 +72,14 @@ function Contact() {
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d220.81280902830986!2d85.31317591332386!3d27.68624205965887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1729765947019!5m2!1sen!2snp"
                 width="100%"
-                height="550"
+                height="400"
                 allowFullScreen=""
                 aria-hidden="false"
                 tabIndex="0"
                 title="Company Location"
               ></iframe>
             </div>
-            {/* <p className="lead-connect">Connect with us on:</p>
+            <p className="lead">Connect with us on:</p>
             <div className="container">
               <div className="social-icons d-flex">
               <a href="https://www.facebook.com/people/Shreepech-International/61567752983133/" target='_blank' className="facebook" aria-label="Facebook">
@@ -113,9 +113,9 @@ function Contact() {
                   </div>
                 </a>
               </div>
-            </div> */}
+            </div>
             <p className="lead" id="contact-details">
-              Or, <br/>
+             <br/> Or, <br/>
               Direct Call: +977 9802318496, +977 9861352004
               
             </p>
