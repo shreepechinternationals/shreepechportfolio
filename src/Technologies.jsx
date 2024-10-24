@@ -83,12 +83,13 @@ function Technologies() {
         <div className="row mb-4 justify-content-center">
           <div className="col-auto">
             <ul className="nav nav-tabs justify-content-center">
-              <li className={`nav-item ${toggle === 1 ? 'active' : ''}`} onClick={()=> updateToggle(1)}>
-                eCommerce
-              </li>
-              <li className={`nav-item ${toggle === 2 ? 'active' : ''}`} onClick={()=> updateToggle(2)}>
+            <li className={`nav-item ${toggle === 1 ? 'active' : ''}`} onClick={()=> updateToggle(1)}>
                 Web
               </li>
+              <li className={`nav-item ${toggle === 2 ? 'active' : ''}`} onClick={()=> updateToggle(2)}>
+                eCommerce
+              </li>
+              
               <li className={`nav-item ${toggle === 3 ? 'active' : ''}`} onClick={()=> updateToggle(3)}>
                 Mobile
               </li>
@@ -105,11 +106,12 @@ function Technologies() {
           </div>
         </div>
 
+        
         {/* Tab Content */}
         <div className={toggle === 1 ? "show-content" : "tab-content"}>
           <div className="tab-pane fade show active" id="eCommerce">
             <div className="row">
-              {eCommerce.map((tech, index) => (
+              {WebTechnologies.map((tech, index) => (
                 <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div className="tech-card text-center p-3">
                     <img src={tech.image} alt={tech.name} className="img-fluid mb-3" />
@@ -124,7 +126,7 @@ function Technologies() {
         <div className={toggle === 2 ? "show-content" : "tab-content"}>
           <div className="tab-pane fade show active" id="eCommerce">
             <div className="row">
-              {WebTechnologies.map((tech, index) => (
+              {eCommerce.map((tech, index) => (
                 <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div className="tech-card text-center p-3">
                     <img src={tech.image} alt={tech.name} className="img-fluid mb-3" />
