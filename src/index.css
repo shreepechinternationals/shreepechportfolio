@@ -141,6 +141,7 @@ body {
 /* Navbar */
 /* Navbar styles */
 .navbar {
+ 
   font-family:"Space Grotesk", sans-serif ;
   display: flex;
   justify-content: space-between; /* To separate left and right sections */
@@ -229,21 +230,18 @@ body {
 
 /* CSS for first page */
 .landing-page{
-  /* width: 100%; */
-  /* margin: 3rem 0; */
-  padding: 8rem 0;
+  padding: 6rem 0;
   height: 700px;
-  /* height: 100vh; */
+ 
   display: flex;   
   flex-direction: column;               
   /* justify-content: center;        
   align-items: center;             */
-  /* min-height: 100vh;              */
-  text-align: left;             /* Center text alignment */
-  /* padding: 20px; */
+  
+  text-align: left;        
+  
   position: relative; 
-  /* overflow: hidden; */
-  background-color: var(--navbar-bg);
+  
 }
 #hero{
   /* height: 100vh; */
@@ -721,18 +719,18 @@ p.lead {
 .faq-box{
   width: 100%;
   background-color: #ECE9E9;
-  justify-content: space-between;
+  
 }
 #faq{
   
   width: 100%;
   color: #1A1717;
   font-family: "Space Grotesk", sans-serif ;
-  padding: 2rem;
+  padding: 3rem 0;
 }
 
 #faq-content{
-  
+  align-items: center;
   color: #1A1717;
   background-color: #ECE9E9;
   font-family: "Space Grotesk", sans-serif ;
@@ -746,40 +744,20 @@ p.lead {
   
 }
 
-/* Horizontal right arrows */
-.arrow-right {
-  width: 100px; /* Length of the arrow */
-  height: 2px;  /* Thickness of the arrow */
-  background-color: black;
-  position: relative;
-}
 
-.arrow-right::after {
-  content: '';
-  position: absolute;
-  top: -5px; /* Adjust to center the arrowhead */
-  right: -15px;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid black;
-}
 .question{
   margin: 0.625rem;
   font-size: 1.25rem;
 }
-.fa-arrow-right{
-  display: inline;
-  padding: 0 0.625rem ;
-}
-#faq-box{
-  padding: 0.625rem;
-}
+
+
 #f-query .col-md-6:hover{
   cursor: pointer;
   transition: 0.3s ease;
   transform: scale(1.025);
   box-shadow: 0 4px 15px rgba(255,255, 255, 0.4);
 }
+
 
 /* Clients */
 

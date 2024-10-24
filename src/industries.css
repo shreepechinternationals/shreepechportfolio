@@ -14,7 +14,7 @@
 }
 .industry-image {
     width: 100%;           /* Make sure the image takes the full width of its container */
-    height: 300px;         /* Set the desired fixed height */
+    height: 400px;         /* Set the desired fixed height */
     object-fit: cover;     /* This will ensure the image keeps its aspect ratio and fills the area */
     border-radius: 10px;   /* Optional: Adds rounded corners to the image */
   }
@@ -33,6 +33,7 @@
     background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent overlay */
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     opacity: 0;
@@ -45,15 +46,22 @@
   }
   /* Icon styles */
 .overlay i {
+  
     font-size: 2rem; /* Icon size */
     margin: 10px;
   }
   
   /* Text styles */
   .overlay p {
+    
     font-family: 'Space Grotesk',sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: capitalize;
     margin: 0;
   }
+  .overlay .description {
+    margin-top: 0.5rem; /* Space between name and description */
+    font-size: 12px; /* Smaller font size for description */
+    text-align: center; /* Center text alignment */
+}

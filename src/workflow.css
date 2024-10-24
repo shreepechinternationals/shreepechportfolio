@@ -63,10 +63,10 @@
 /* Hover effects */
 .workflow-step:hover {
     cursor: pointer;
-    /* transform: translateY(-5px);  */
+    transform: translateY(-5px); 
     transition: all 0.4s ease-in-out; /* Smooth hover transition with a slight delay */
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15); /* Stronger shadow effect on hover */
-    border-color: #1A1717; /* Change border color on hover */
+    /* border-color: #1A1717;  */
     z-index: 1; /* Bring hovered element to the front */
 }
 

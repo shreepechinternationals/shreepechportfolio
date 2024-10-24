@@ -12,7 +12,7 @@ function Faq() {
               className="container text-left justify-content-between "
               id="f-query"
             >
-              <div className="row">
+              <div className="row" id="faq-row">
                 <div className="col-md-6 " id="faq-box-content">
                   <h2 className="question">What services does your company offer?</h2>
 
@@ -35,7 +35,7 @@ function Faq() {
                 <hr/>
               </div>
               
-              <div className="row">
+              <div className="row" id="faq-row">
                 <div className="col-md-6" id="faq-box-content">
                   <h2 className="question">Do you offer custom software development services?</h2>
                   <p className="lead">
@@ -56,7 +56,7 @@ function Faq() {
                 </div>
                 <hr/>
               </div>
-              <div className="row">
+              <div className="row" id="faq-row">
                 <div className="col-md-6" id="faq-box-content">
                   <h2 className="question">How do you manage project timelines and delivery?</h2>
                   <p className="lead">
