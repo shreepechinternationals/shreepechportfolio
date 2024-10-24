@@ -63,7 +63,7 @@ function Clients() {
     "NPADSN.png",
     "ysbuilders-logo.jpg",
     "SG.png",
-    "maxholdings.png",
+    "maxholdings.png"
   ];
 
   const visibleLogos = 4; // Number of logos visible at once

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Members() {
   return (
-    <div className="container mt-5">
+    <div className="container">
         <div className="circle"> 
     <div className="container-fluid" id="members"> 
     <div className="our-services"> 

@@ -20,6 +20,8 @@ import Workflow from './Workflow';
 import PullToRefresh from './PullToRefresh';
 import LandingPage from './LandingPage';
 import Platform from './Platform';
+import Industries from './Industries'
+import Technologies from './Technologies';
 
 
 function App() {
@@ -37,7 +39,8 @@ function App() {
       <Clients />
       {/* <Activities /> */}
       <Workflow/>
-      
+      <Technologies/>
+      <Industries/>
       <Contact />
       
       <Faq />
