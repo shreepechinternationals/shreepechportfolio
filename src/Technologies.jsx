@@ -11,20 +11,20 @@ function Technologies() {
 
   const eCommerce = [
     
-   
     { name: 'WooCommerce', image: 'path_to_image/woocommerce.png' },
     { name: 'E-commerce', image: 'path_to_image/ecommerce.png' },
     
     
   ];
   const WebTechnologies = [
-    { name: 'Python', image: 'path_to_image/magento.png' },
-    { name: 'Node.js', image: 'path_to_image/adobe_cloud.png' },
-    { name: 'Django', image: 'path_to_image/woocommerce.png' },
-    { name: 'Laravel', image: 'path_to_image/shopify.png' },
-    { name: 'Angular.js', image: 'path_to_image/bigcommerce.png' },
-    { name: 'WordPress', image: 'path_to_image/opencart.png' },
-    { name: 'Javascript', image: 'path_to_image/marketplace.png' },
+    { name: 'Python', image: '/images/technology-img/web/python.png' },
+    { name: 'Node.js', image: '/images/technology-img/web/node.png' },
+    { name: 'Django', image: '/images/technology-img/web/django.png' },
+    { name: 'Laravel', image: '/images/technology-img/web/laravel.png' },
+    { name: 'Angular.js', image: '/images/technology-img/web/angular.png' },
+    { name: 'WordPress', image: '/images/technology-img/web/wordpress.png' },
+    { name: 'Javascript', image: '/images/technology-img/web/js.png' },
+    { name: 'React.js', image: '/images/technology-img/web/react.png' },
     
     
   ];
