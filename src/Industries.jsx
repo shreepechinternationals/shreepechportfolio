@@ -2,12 +2,12 @@ import React from "react";
 import './industries.css'; 
 
 const industries = [
-    { name: "Healthcare", icon: "fa-solid fa-dumbbell", image: "/images/industries-img/healthcare.avif", description: "Providing advanced healthcare solutions." },
+    { name: "Healthcare", icon: "fa-solid fa-dumbbell", image: "/images/industries-img/healthcare.avif", description: "Providing digital healthcare solutions." },
     { name: "Education", icon: "fa-solid fa-graduation-cap", image: "/images/industries-img/education.avif", description: "Innovating education through technology." },
-    { name: "Travel", icon: "fa-solid fa-plane", image: "/images/industries-img/travel.avif", description: "Making travel information and efficient." },
-    { name: "Finance", icon: "fa-solid fa-dollar-sign", image: "/images/industries-img/finance.avif", description: "Transforming financial services." },
+    { name: "Travel", icon: "fa-solid fa-plane", image: "/images/industries-img/travel.avif", description: "Making travel information  efficient." },
+    { name: "Finance", icon: "fa-solid fa-dollar-sign", image: "/images/industries-img/finance.jpg", description: "Transforming financial services." },
     { name: "IT", icon: "fa-solid fa-microchip", image: "/images/industries-img/IT.avif", description: "Driving technology innovation." },
-    { name: "Logistics", icon: "fa-solid fa-key", image: "/images/industries-img/logistics.avif", description: "Optimizing supply chain management." },
+    { name: "Logistics", icon: "fa-solid fa-key", image: "/images/industries-img/logistics.jpg", description: "Optimizing supply chain management." },
     { name: "Retail", icon: "fa-solid fa-store", image: "/images/industries-img/retail.jpg", description: "Enhancing retail experiences." },
     { name: "E-Commerce", icon: "fa-solid fa-cart-shopping", image: "/images/industries-img/e-commerce.jpg", description: "Building powerful e-commerce platforms." }
 ];
