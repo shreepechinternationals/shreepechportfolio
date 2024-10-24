@@ -64,15 +64,22 @@ function Contact() {
 
   return (
     <>
-      <div className="container-fluid d-flex align-items-center" id="contact">
+      <div className="container-fluid" id="contact">
+      <header id='contact-title'>Contact Us</header>
         <div className="row w-100">
-          <div className="col-md-6 d-flex flex-column justify-content-center">
-            <h1 className="display-4 font-weight-bold">Contact Us.</h1>
-            <p className="lead">
-              Understanding your problem is the first step to creating a viable
-              solution for you.
-            </p>
-            <p className="lead">Connect with us on:</p>
+          <div className="col-md-6 d-flex flex-column">
+            <div className="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d220.81280902830986!2d85.31317591332386!3d27.68624205965887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1729765947019!5m2!1sen!2snp"
+                width="100%"
+                height="550"
+                allowFullScreen=""
+                aria-hidden="false"
+                tabIndex="0"
+                title="Company Location"
+              ></iframe>
+            </div>
+            {/* <p className="lead-connect">Connect with us on:</p>
             <div className="container">
               <div className="social-icons d-flex">
               <a href="https://www.facebook.com/people/Shreepech-International/61567752983133/" target='_blank' className="facebook" aria-label="Facebook">
@@ -95,15 +102,7 @@ function Contact() {
                     />
                   </div>
                 </a>
-                {/* <a href="#" className="twitter" aria-label="Twitter">
-                  <div className="contact-box-icon">
-                    <img
-                      className="contact-img"
-                      src="images/icons/x.png"
-                      alt="Twitter"
-                    />
-                  </div>
-                </a> */}
+               
                 <a href="https://www.instagram.com/shreepech.international/" target='_blank' className="instagram" aria-label="Instagram">
                   <div className="contact-box-icon">
                     <img
@@ -114,19 +113,23 @@ function Contact() {
                   </div>
                 </a>
               </div>
-            </div>
+            </div> */}
             <p className="lead" id="contact-details">
-              Or,
-              <br />
+              Or, <br/>
               Direct Call: +977 9802318496, +977 9861352004
+              
             </p>
             <p className="lead" id="contact-details">
               Conversing Time:
               <br />
-              Monday - Friday, 08:00 AM - 5:00 PM
+              Sunday - Friday, 10:00 AM - 6:00 PM
+              
             </p>
+            
+            
+            
           </div>
-          <div className="col-md-6 d-md-block" id="contact-us-contents">
+          <div className="col-md-6 d-flex flex-column" id="contact-us-contents">
             <p className="lead" id="contact-details-reach">
               Reach us via Email:
             </p>
@@ -228,8 +231,8 @@ function Contact() {
                       name="message"
                       value={formData.message || ""}
                       onChange={handleChange}
-                      placeholder="Please brief your requirements in short detail"
-                      rows="4"
+                      placeholder="Please brief your requirements in short detail."
+                      rows="7"
                     ></textarea>
                   </div>
                 </div>
@@ -252,6 +255,8 @@ function Contact() {
                 </p>
               </div>
             </form>
+            
+            
           </div>
         </div>
       </div>

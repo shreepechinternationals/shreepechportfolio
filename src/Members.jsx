@@ -5,10 +5,10 @@ function Members() {
     <div className="container">
         <div className="circle"> 
     <div className="container-fluid" id="members"> 
-    <div className="our-services"> 
+     
         <header id='members-title'>Meet Our Team Members</header>
         <p className="lead" id="services-desc">A group of skilled professionals, working together to bring<br/> innovative ideas to life and deliver exceptional results.</p>
-        </div>
+
         <div className="container text-center" id="meet-our-team">
             <div className="row">
                 <div className="col">

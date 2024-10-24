@@ -25,7 +25,7 @@ function Services() {
       transition={{ duration: 1 }}
     >
       
-      <div className="our-services">
+      
         <motion.header
           id="services-title"
           initial="hidden"
@@ -47,9 +47,9 @@ function Services() {
           <br />
           Use our team to build your system!
         </motion.p>
-      </div>
+      
 
-      <div className="container text-center" id="teams">
+      <div className="container text-center" id="services-content">
         <div className="row">
           <div className="col">
             <motion.div
