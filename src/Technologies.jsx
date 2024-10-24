@@ -11,8 +11,8 @@ function Technologies() {
 
   const eCommerce = [
     
-    { name: 'WooCommerce', image: 'path_to_image/woocommerce.png' },
-    { name: 'E-commerce', image: 'path_to_image/ecommerce.png' },
+    { name: 'WooCommerce', image: '/images/technology-img/ecommerce/woo.png' },
+    { name: 'E-commerce', image: '/images/technology-img/ecommerce/ecommerce.png' },
     
     
   ];
@@ -29,12 +29,12 @@ function Technologies() {
     
   ];
   const MobileTechnologies = [
-    { name: 'Android', image: 'path_to_image/magento.png' },
-    { name: 'iOS', image: 'path_to_image/adobe_cloud.png' },
-    { name: 'React Native', image: 'path_to_image/woocommerce.png' },
-    { name: 'Flutter', image: 'path_to_image/shopify.png' },
-    { name: 'Swift', image: 'path_to_image/bigcommerce.png' },
-    { name: 'Kotlin', image: 'path_to_image/opencart.png' },
+    { name: 'Android', image: '/images/technology-img/mobile/android.png' },
+    { name: 'iOS', image: '/images/technology-img/mobile/ios.png' },
+    { name: 'React Native', image: '/images/technology-img/mobile/reactnative.png' },
+    { name: 'Flutter', image: '/images/technology-img/mobile/flutter.png' },
+    { name: 'Swift', image: '/images/technology-img/mobile/swift.png' },
+    { name: 'Kotlin', image: '/images/technology-img/mobile/kotlin.png' },
     
     
     

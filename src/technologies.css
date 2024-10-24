@@ -1,5 +1,6 @@
 /* Section Title */
 .technologies-section{
+    padding: 6rem 0;
     font-family: 'Space Grotesk', sans-serif;
 }
 .tech-title {
@@ -30,7 +31,7 @@
 
 .nav-tabs .nav-item:hover {
     color: #fff;
-    border-bottom: 3px solid #f39c12;
+    /* border-bottom: 3px solid #f39c12; */
 }
 
 /* This only applies when the tab is clicked and active */
